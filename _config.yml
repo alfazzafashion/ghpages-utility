@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://mansz81.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : blogs
+owner               : "mansz81"
+url                 : "https://mansz81.github.io"
+baseurl             : "/blogs"
 permalink           : /:title/
 description         : "A hacker-style note-keeping website template."
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+statement           : "Designed by mansz81, All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -33,10 +33,10 @@ collections:
   portfolio:
     output          : true
     permalink       : /:collection/:title/
-    order: # specify post order manually
-      - portfolio3.md
-      - portfolio2.md
-      - portfolio1.md
+    order			: # specify post order manually
+						- portfolio3.md
+						- portfolio2.md
+						- portfolio1.md
   album:
     output          : true
     permalink       : /:collection/:title/
@@ -76,7 +76,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "mansz81" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
