@@ -18,4 +18,4 @@ comment: false
 </summary>
 <video loop controls muted src="/src/assets/img/1.mp4" data-canonical-src="/src/assets/img/1.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;"> </video></details>
 
-![img-smpl]({{site.url}}{{site.baseurl}}/src/assets/img/51633312.jpg)
+![img-smpl](/src/assets/img/51633312.jpg)
