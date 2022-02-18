@@ -7,7 +7,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <video src="https://mansz81.github.io/src/assets/img/1.mp4" data-canonical-src="https://mansz81.github.io/src/assets/img/1.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
+  <video src="/src/assets/img/1.mp4" data-canonical-src="/src/assets/img/1.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
 
   </video>
 </details>
