@@ -56,7 +56,7 @@ collections:
     output          : true
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+disqus_username     : mansz81
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -82,16 +82,16 @@ defaults:
 
 # 5. Social Media Accounts
 email               : "https://github.com/mansz81/blogs" 
-linkedin            : 
-github              : "just-test" 
-gitlab              : 
-website             : "https://github.com/mansz81/blogs"
-twitter             : "just-test"
-facebook            : "just-test"
-instagram           : 
+linkedin            : "mansz81"
+github              : "mansz81"
+gitlab              : "mansz81"
+website             : "https://github.com/mansz81"
+twitter             : "mansz81"
+facebook            : "mansz81"
+instagram           : "mansz81"
 youtube             : "just-test"
-steam               : "just-test"
-weibo               :
+medium              : "mansz81"
+discord             : "oneplus#3145"
       
 # 6. Where things are
 source              : .
