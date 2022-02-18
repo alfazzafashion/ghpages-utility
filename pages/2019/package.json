@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "remark-cli": "^10.0.1",
-    "remark-lint": "^9.1.1",
-    "remark-lint-pingcap-docs-anchor": "github:breeswish/remark-lint-pingcap-docs-anchor"
-  }
-}
