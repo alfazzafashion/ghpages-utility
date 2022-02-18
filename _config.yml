@@ -2,7 +2,7 @@
 title               : blogs
 owner               : "mansz81"
 url                 : "https://mansz81.github.io"
-baseurl             : "/blogs"
+baseurl             : "/"
 permalink           : /:title/
 description         : "A hacker-style note-keeping website template."
 markdown            : kramdown
