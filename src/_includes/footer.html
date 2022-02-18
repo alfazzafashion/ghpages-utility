@@ -97,40 +97,38 @@
         </i>
       </a>
       {% endif %}
-      <!-- steam -->
-      {% if site.steam %}
+      <!-- medium -->
+      {% if site.medium %}
       <a
         class="footer_btn"
-        href="https://steamcommunity.com/id/{{ site.steam }}"
+        href="https://mansz.medium.com{{ site.medium }}"
       >
-        <i class="fa fa-steam">
+        <i class="fa fa-medium">
           {% if page.btn_text != false %}
-          <p>Steam</p>
+          <p>Discord</p>
           {% endif %}
         </i>
       </a>
       {% endif %}
-            <!-- disqus-thread -->
-      {% if site.steam %}
-      <a
-        class="footer_btn"
-        href="http://foo.com/bar.html{{ #disqus_thread }}"
-      >
-        <i class="fa fa-steam">
+      <!-- discord -->
+      {% if site.discord %}
+      <a class="footer_btn" href="https://discord.com/channels/{{ site.discord }}">
+        <i class="fa fa-discord">
           {% if page.btn_text != false %}
-          <p>Steam</p>
+          <p>Discord</p>
+          {% endif %}
+                <p>Thread</p>
           {% endif %}
         </i>
       </a>
       {% endif %}
-      <a href="">Link</a>
-      <!-- weibo -->
-      {% if site.weibo %}
-      <a class="footer_btn" href="https://weibo.com/u/{{ site.weibo }}">
-        <i class="fa fa-weibo">
+      <!-- disqus-thread -->
+      {% if site.foo %}
+      <a
+        class="footer_btn"
+        href="http://foo.com/bar.html#disqus_thread{{ site.foo }}"
+        <i class="fa fa-foo">
           {% if page.btn_text != false %}
-          <p>Weibo</p>
-          {% endif %}
         </i>
       </a>
       {% endif %}
