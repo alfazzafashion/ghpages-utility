@@ -81,17 +81,18 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "https://github.com/mansz81/blogs" 
-linkedin            : "oneplus-undefined-38610b232"
+website             : "https://lpkia.academia.edu/mansz"
+email               : "mansz@academia.edu" 
 github              : "mansz81"
 gitlab              : "mansz81"
-website             : "https://lpkia.academia.edu/mansz"
+pastebin            : "mansz81"
+discord             : "oneplus#3145"
 facebook            : "mansz.81"
 twitter             : "mansz81"
 instagram           : "mansz81"
+linkedin            : "oneplus-undefined-38610b232"
 youtube             : "UCPc_4aEsYhe_FnoC0rkZUTQ"
-pastebin            : "mansz81"
-discord             : "oneplus#3145"
+
       
 # 6. Where things are
 source              : .
