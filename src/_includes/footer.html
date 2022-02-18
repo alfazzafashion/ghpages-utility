@@ -24,6 +24,19 @@
         </i>
       </a>
       {% endif %}
+       <!-- pastebin -->
+      {% if site.pastebin %}
+      <a
+        class="footer_btn"
+        href="https://www.pastebin.com/u/{{ site.pastebin }}"
+      >
+        <i class="fa fa-pastebin">
+          {% if page.btn_text != false %}
+          <p>Pastebin</p>
+          {% endif %}
+        </i>
+      </a>
+      {% endif %}
       <!-- github -->
       {% if site.github %}
       <a class="footer_btn" href="https://github.com/{{ site.github }}">
@@ -40,6 +53,19 @@
         <i class="fa fa-gitlab">
           {% if page.btn_text != false %}
           <p>Gitlab</p>
+          {% endif %}
+        </i>
+      </a>
+      {% endif %}
+             <!-- bitbucket -->
+      {% if site.bitbucket %}
+      <a
+        class="footer_btn"
+        href="https://bitbucket.org/{{ site.bitbucket }}"
+      >
+        <i class="fa fa-bitbucket">
+          {% if page.btn_text != false %}
+          <p>bitbucket</p>
           {% endif %}
         </i>
       </a>
@@ -114,7 +140,7 @@
       {% if site.medium %}
       <a
         class="footer_btn"
-        href="https://mansz.medium.com{{ site.medium }}"
+        href="https://medium.com/{{ site.medium }}"
       >
         <i class="fa fa-medium">
           {% if page.btn_text != false %}
