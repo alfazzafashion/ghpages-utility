@@ -97,6 +97,19 @@
         </i>
       </a>
       {% endif %}
+      <!-- discord -->
+      {% if site.discord %}
+      <a
+        class="footer_btn"
+        href="https://discord.com/channels/{{ site.discord }}"
+      >
+        <i class="fa fa-discord">
+          {% if page.btn_text != false %}
+          <p>Discord</p>
+          {% endif %}
+        </i>
+      </a>
+      {% endif %}
       <!-- medium -->
       {% if site.medium %}
       <a
@@ -105,30 +118,8 @@
       >
         <i class="fa fa-medium">
           {% if page.btn_text != false %}
-          <p>Discord</p>
+          <p>Medium</p>
           {% endif %}
-        </i>
-      </a>
-      {% endif %}
-      <!-- discord -->
-      {% if site.discord %}
-      <a class="footer_btn" href="https://discord.com/channels/{{ site.discord }}">
-        <i class="fa fa-discord">
-          {% if page.btn_text != false %}
-          <p>Discord</p>
-          {% endif %}
-                <p>Thread</p>
-          {% endif %}
-        </i>
-      </a>
-      {% endif %}
-      <!-- disqus-thread -->
-      {% if site.foo %}
-      <a
-        class="footer_btn"
-        href="http://foo.com/bar.html#disqus_thread{{ site.foo }}"
-        <i class="fa fa-foo">
-          {% if page.btn_text != false %}
         </i>
       </a>
       {% endif %}
