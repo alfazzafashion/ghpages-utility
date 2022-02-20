@@ -1,18 +1,12 @@
 ---
-title: Portfolio Sample 3
+title: Portfolio Sample 3 [![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
 ---
-
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
 <!-- LOGO -->
 <br />
 
 <p align="center">
   <a href="https://github.com/akiritsu/pRoJEct-VeXEd">
-    <img src="src/assets/img/favicon.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/akiritsu/pRoJEct-VeXEdsrc/assets/img/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">pRoJEct-VeXEd</h3>
@@ -57,7 +51,7 @@ title: Portfolio Sample 3
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![homepage](src/assets/img/Screenshot-2.png)
+![homepage](https://github.com/akiritsu/pRoJEct-VeXEd/src/assets/img/Screenshot-2.png)
 
 This jekyll theme is a content-oriented blog, cv or learning notes, aimed at providing a convinient note-keeping tool. You can keep and review your notes or articles in different collections without any functional recode.
 
@@ -234,19 +228,18 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
 <!-- CONTACT -->
 ## Contact
 
 DeerRIDER - [Email](mailto://deerrider666@outlook.com)
 
-Project Link: [https://github.com/akiritsu/pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
+Project Link: [akiritsu/pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
 
-[forks-shield]: https://img.shields.io/github/forks/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
-[forks-url]: https://github.com/akiritsu/pRoJEct-VeXEd/network/members
-[stars-shield]: https://img.shields.io/github/stars/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
-[stars-url]: https://https://github.com/akiritsu/pRoJEct-VeXEd/stargazers
-[issues-shield]: https://img.shields.io/github/issues/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
-[issues-url]: https://https://github.com/akiritsu/pRoJEct-VeXEd/issues
-[license-shield]: https://img.shields.io/github/license/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
-[license-url]: https://https://github.com/akiritsu/pRoJEct-VeXEd/blob/master/LICENSE.txt
+[forks-shield]:https://img.shields.io/github/forks/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
+[forks-url]:https://github.com/akiritsu/pRoJEct-VeXEd/network/members
+[stars-shield]:https://img.shields.io/github/stars/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
+[stars-url]:https://https://github.com/akiritsu/pRoJEct-VeXEd/stargazers
+[issues-shield]:https://img.shields.io/github/issues/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
+[issues-url]:https://https://github.com/akiritsu/pRoJEct-VeXEd/issues
+[license-shield]:https://img.shields.io/github/license/akiritsu/pRoJEct-VeXEd.svg?style=flat-square
+[license-url]:https://https://github.com/akiritsu/pRoJEct-VeXEd/blob/master/LICENSE.txt
