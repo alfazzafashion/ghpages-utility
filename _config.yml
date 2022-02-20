@@ -1,7 +1,7 @@
 # 1. Site Settings
 title               : Read Aloud
 owner               : "mansz81"
-url                 : "https://read-aloud.github.io"
+url                 : "https://readloud.github.io"
 baseurl             : "/"
 permalink           : /:title/
 description         : "Read Aloud is intended for users who prefer to listen to content instead of reading."
