@@ -6,16 +6,16 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "mansz"
+title: "Read Aloud: A Text to Speech"
 author: "mansz81"
 encrypted_text: true
 permalink: /
 ---
 
-# PROJECT VeXEd - HACKER-STYLE PERSONAL HOMEPAGE
+# READ ALOUD IS INTENDED FOR USERS WHO PREFER TO LISTEN TO CONTENT INSTEAD OF READING
 
 <br>
-> pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
+> Reads out loud texts, web pages, pdfs & ebooks with natural sounding voices.V.
 
 ## Features
 
