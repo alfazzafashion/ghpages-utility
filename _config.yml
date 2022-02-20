@@ -23,6 +23,7 @@ collection_order    :
     "physics",
     "my_notes",
     "portfolio",
+    "privacy",
   ]
 collections:
   math:   
@@ -33,7 +34,7 @@ collections:
   portfolio:
     output          : true
     permalink       : /:collection/:title/
-    order	    : # specify post order manually
+    order	        : # specify post order manually
   album:
     output          : true
     permalink       : /:collection/:title/
@@ -54,6 +55,9 @@ collections:
     alias           : "My Notes"
   posts:
     output          : true
+  privacy:
+    output          : true
+    permalink       : /:collection/:title/
 
 # 3. Comment settings（disqus.com）
 disqus_username     : mansz81
