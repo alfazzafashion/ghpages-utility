@@ -2,6 +2,7 @@
 title: Portfolio Sample 3 
 ---
 <!-- LOGO -->
+[![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
 <br />
 <p align="center">
   <a href="https://github.com/akiritsu/pRoJEct-VeXEd"><img src="/assets/img/favicon.png" alt="Logo" width="80" height="80"></a>
@@ -14,9 +15,8 @@ title: Portfolio Sample 3
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Report Bug</a>
     ·
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Request Feature</a>
-  </p></center>
-  
-[![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
+  </p>  
+
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
