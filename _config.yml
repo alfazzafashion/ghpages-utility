@@ -35,6 +35,9 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     order	          : # specify post order manually
+    - Portfolio Sample 1
+    - Portfolio Sample 2
+    - founder Portfolio
   album:
     output          : true
     permalink       : /:collection/:title/
