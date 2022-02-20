@@ -1,10 +1,10 @@
 # 1. Site Settings
-title               : blogs
+title               : Read Aloud: A Text to Speech
 owner               : "mansz81"
 url                 : "https://mansz81.github.io"
 baseurl             : "/"
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : "Read Aloud is intended for users who prefer to listen to content instead of reading."
 markdown            : kramdown
 statement           : "All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
@@ -35,9 +35,6 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     order	          : # specify post order manually
-    - Portfolio Sample 1
-    - Portfolio Sample 2
-    - founder Portfolio
   album:
     output          : true
     permalink       : /:collection/:title/
