@@ -1,7 +1,10 @@
 ---
 title: Portfolio Sample 3 
 ---
-
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 <!-- LOGO -->
 <br />
 <p align="center">
@@ -9,10 +12,6 @@ title: Portfolio Sample 3
   <h3 align="center">pRoJEct-VeXEd v 2.4</h3>
   <br />
   <p align="center">
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
     pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
     <br />
     <a href="https://akiritsu.github.io/pRoJEct-VeXEd/">View Demo</a>
