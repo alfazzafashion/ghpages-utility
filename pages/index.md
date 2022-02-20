@@ -6,8 +6,8 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: ""
-author: ""
+title: "mansz"
+author: "mansz81"
 encrypted_text: true
 permalink: /
 ---
