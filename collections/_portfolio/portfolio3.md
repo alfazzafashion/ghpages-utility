@@ -1,5 +1,5 @@
 ---
-title: Portfolio Sample 3 [![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
+title: Portfolio Sample 3 
 ---
 <!-- LOGO -->
 <br />
@@ -24,7 +24,7 @@ title: Portfolio Sample 3 [![Forks][forks-shield]][forks-url], [![Stargazers][st
   </p>
 
 </p>
-
+[![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
