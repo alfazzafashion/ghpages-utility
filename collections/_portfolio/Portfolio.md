@@ -1,5 +1,5 @@
 ---
-title: Portfolio Sample 3 
+title: Portfolio
 ---
 <!-- LOGO -->
 <br />
