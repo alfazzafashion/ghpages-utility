@@ -3,27 +3,19 @@ title: Portfolio Sample 3
 ---
 <!-- LOGO -->
 <br />
-
 <p align="center">
-  <a href="https://github.com/akiritsu/pRoJEct-VeXEd">
-    <img src="https://github.com/akiritsu/pRoJEct-VeXEdsrc/assets/img/favicon.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">pRoJEct-VeXEd</h3>
-    <h5 align="center">v 2.4</h5>
-    <br />
-  <p align="center">
+  <a href="https://github.com/akiritsu/pRoJEct-VeXEd"><img src="/assets/img/favicon.png" alt="Logo" width="80" height="80"></a>
+  <h3 align="center">pRoJEct-VeXEd v 2.4</h3>
+    <h5 align="center"></h5>
     pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
-    <br />
     <br />
     <a href="https://akiritsu.github.io/pRoJEct-VeXEd/">View Demo</a>
     ·
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Report Bug</a>
     ·
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Request Feature</a>
-  </p>
-
-</p>
+  </p></center>
+  
 [![Forks][forks-shield]][forks-url], [![Stargazers][stars-shield]][stars-url], [![Issues][issues-shield]][issues-url],[![MIT License][license-shield]][license-url]
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
