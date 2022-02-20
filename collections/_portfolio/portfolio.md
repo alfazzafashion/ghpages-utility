@@ -1,5 +1,5 @@
 ---
-title: Founder Portfolio
+title: Founder
 ---
 <!-- LOGO -->
 <br />
