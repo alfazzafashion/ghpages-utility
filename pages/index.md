@@ -6,7 +6,7 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "Read Aloud: A Text to Speech"
+title: "Read Aloud"
 author: "mansz81"
 encrypted_text: true
 permalink: /
