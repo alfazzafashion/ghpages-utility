@@ -1,9 +1,8 @@
-# 404 - Page Not Found
+# pRoJEct-VeXEd
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<img src="/src/assets/img/51633312.jpg" data-canonical-src="/src/assets/img/51633312.jpg" frameborder="0" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;"> </img></details></summary>
 <!-- LOGO -->
 <br />
 
