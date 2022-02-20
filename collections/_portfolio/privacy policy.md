@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+---
+
 <h1>Privacy Policy for Read Aloud</h1>
 
 <p>At Read Aloud, accessible from https://read-aloud.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Read Aloud and how we use it.</p>
