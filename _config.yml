@@ -34,7 +34,7 @@ collections:
   portfolio:
     output          : true
     permalink       : /:collection/:title/
-    order	        : # specify post order manually
+    order	          : # specify post order manually
   album:
     output          : true
     permalink       : /:collection/:title/
