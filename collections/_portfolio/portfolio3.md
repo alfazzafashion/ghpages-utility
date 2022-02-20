@@ -87,11 +87,9 @@ sudo apt-get install ruby
 
 # Arch
 sudo pacman -S ruby
-
 ```
 
 * bundler
-
 ```bash
 gem install bundler
 ```
@@ -99,9 +97,7 @@ gem install bundler
 ```bash
 bundler install jekyll
 ```
-
 * jekyll plugins
-
 ```bash
 gem install jekyll-sitemap jekyll-feed jekyll-seo-tag jekyll-mermaid
 ```
