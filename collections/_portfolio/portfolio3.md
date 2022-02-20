@@ -1,6 +1,7 @@
 ---
 title: Portfolio Sample 3 
 ---
+
 <!-- LOGO -->
 <br />
 <p align="center">
@@ -16,7 +17,8 @@ title: Portfolio Sample 3
     ·
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Request Feature</a>
   </p>  
-
+</p> 
+<br />
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
