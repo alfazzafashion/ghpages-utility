@@ -6,7 +6,7 @@
 <!-- LOGO -->
 <br />
 <p align="center">
-<img src="/readloud/readloud.github.io/raw/main/src/assets/img/FLS4B.jpg" alt="logo" style="max-width: 100%;">
+<img src="/src/assets/img/FLS4B.jpg" alt="logo" style="max-width: 100%;">
 <br />
 
 <!-- GETTING STARTED -->
