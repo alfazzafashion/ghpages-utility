@@ -5,10 +5,10 @@
 [![MIT License][license-shield]][license-url]
 <!-- LOGO -->
 <br />
-  <p align="center">
+<p align="center">
 <a href="https://github.com/akiritsu/pRoJEct-VeXEd"> </a>
+<a href="src/assets/img/FLS4B.jpg"></a>
  <br />
-  
   <h3 align="center">pRoJEct-VeXEd</h3>
     <h5 align="center">v 2.4</h5>
     <br />
@@ -24,61 +24,8 @@
     <a href="https://github.com/akiritsu/pRoJEct-VeXEd/issues">Request Feature</a>
   </p>
 
-</p>
-
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-<detail>
-- [Table of Contents](#table-of-contents)
-- [About The Project](#about-the-project)
-  - [Features](#features)
-  - [Builtwith](#builtwith)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Personalize and Customize](#personalize-and-customize)
-    - [_config.yml](#_configyml)
-    - [Collections](#collections)
-    - [Writing](#writing)
-    - [Comment](#comment)
-    - [Test locally](#test-locally)
-    - [Front Matter](#front-matter)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![homepage](src/assets/img/FLS4B.jpg)
-
-This jekyll theme is a content-oriented blog, cv or learning notes, aimed at providing a convinient note-keeping tool. You can keep and review your notes or articles in different collections without any functional recode.
-
-### Features
-
-* Highly customizable
-* Formula insertion
-* Code test online
-* Easy-to-use cheatsheet
-* Hacker-like theme
-* Code highlight
-* Text Decryption
-* Convinient code exhibition and review
-* Table of content
-* Atom Feeds
-* SEO
-
-### Builtwith
-
-* Bundler
-* Jekyll
-* Mathpix
-* Font Awesome
-* Sjcl
-* Disqus
-* Mermaid
 
 ## Getting Started
 
