@@ -3,5 +3,7 @@ title: Spiderman!
 category: Videos
 comment: false
 ---
-
-<img src="/src/assets/videos/00bd6.mp4" alt="video" style="max-width: 100%;">
+<details>
+<summary>Bohemian Rhapsody | Muppet Music Video | The Muppets</summary>
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JfVOs4VSpmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
