@@ -1,4 +1,3 @@
-# pRoJEct-VeXEd
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -6,7 +5,7 @@
 <!-- LOGO -->
 <br />
 <p align="center">
-<img src="/src/assets/img/FLS4B.jpg" alt="logo" style="max-width: 100%;">
+<img src="/src/assets/img/favicon.png" alt="logo" style="max-width: 100%;">
 <br />
 
 <!-- GETTING STARTED -->
