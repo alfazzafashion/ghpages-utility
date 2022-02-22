@@ -4,4 +4,4 @@ category: Videos
 comment: false
 ---
 
-<video src="({{site.url}}{{site.baseurl}}/src/assets/videos/00bd6.mp4">
+<img src="/src/assets/videos/00bd6.mp4" alt="video" style="max-width: 100%;">
