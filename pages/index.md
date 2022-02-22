@@ -6,13 +6,13 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "Read Aloud"
-author: "mansz81"
+title: "Read Loud"
+author: "Read Loud"
 encrypted_text: true
 permalink: /
 ---
 
-# READ ALOUD IS INTENDED FOR USERS WHO PREFER TO LISTEN TO CONTENT INSTEAD OF READING
+# IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
 
 <br>
 > Reads out loud texts, web pages, pdfs & ebooks with natural sounding voices.V.

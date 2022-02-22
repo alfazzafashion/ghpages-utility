@@ -1,10 +1,10 @@
 # 1. Site Settings
-title               : Read Aloud
+title               : Read Loud
 owner               : "Text to Speech"
 url                 : "https://readloud.github.io"
 baseurl             : "/"
 permalink           : /:title/
-description         : "Read Aloud is intended for users who prefer to listen to content instead of reading."
+description         : "Read Loud is intended for users who prefer to listen to content instead of reading."
 markdown            : kramdown
 statement           : "All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
@@ -21,42 +21,44 @@ collection_order    :
     "repository",
     "notes",
     "gallery",
-    "shop",
     "portfolio",
    ]
 collections:
-  math:   
+  posts:   
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "Mathematics"
-  portfolio:
-    output          : true
-    permalink       : /:collection/:title/
-    order	          : # specify post order manually
-  album:
+    alias           : "Article"
+  linux:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  physics:
+  windows:
     output          : true
     permalink       : /:collection/:title/
-  biology:
+    sort_by         : date
+  tools:
     output          : true
     permalink       : /:collection/:title/
-  finance:
+  repository:
     output          : true
     permalink       : /:collection/:title/
-  my_notes:
+  notes:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
     alias           : "My Notes"
-  posts:
-    output          : true
-  privacy:
+  gallery:
     output          : true
     permalink       : /:collection/:title/
+    # An alias should be given or the UNDERSCORE will appeared 
+    alias           : "My Gallery"
+  portfolio:
+    output          : true
+    permalink       : /:collection/:title/
+    order	          : # specify post order manually
+  posts:
+    output          : true
 
 # 3. Comment settings（disqus.com）
 disqus_username     : mansz81
@@ -76,7 +78,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "mansz81" # author name by default
+      author              : "readloud"  # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -84,10 +86,10 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-website             : "https://lpkia.academia.edu/mansz"
+website             : "lpkia.academia.edu/mansz"
 email               : "mansz@academia.edu" 
-github              : "mansz81"
-gitlab              : "mansz81"
+github              : "readloud"
+gitlab              : "readloud"
 bitbucket           : "mansz"
 pastebin            : "mansz81"
 discord             : "oneplus#3145"
