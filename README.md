@@ -7,8 +7,9 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/akiritsu/pRoJEct-VeXEd">
-    <img src="src/assets/img/favicon.png" alt="Logo" width="80" height="80">
+<a href="https://github.com/akiritsu/pRoJEct-VeXEd">
+<div class="video" align="center">
+<video loop controls muted src="/src/assets/videos/HeroVid.mp4" data-canonical-src="/src/assets/videos/HeroVid.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; allowfullscreen" class="d-block rounded-bottom-2 width-fit" style="max-height:640px;">
   </a>
 
   <h3 align="center">pRoJEct-VeXEd</h3>
