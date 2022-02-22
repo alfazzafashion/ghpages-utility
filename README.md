@@ -28,7 +28,7 @@
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
-
+<detail>
 - [Table of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
   - [Features](#features)
