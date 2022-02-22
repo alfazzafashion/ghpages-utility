@@ -1,3 +1,4 @@
+<p align="center">
 # pRoJEct-VeXEd
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
