@@ -1,5 +1,5 @@
 ---
-title: Advent of Code 2018 Day One
+title: Advent of Code 2018
 category: Article
 author: readloud
 post_list: "date"
