@@ -230,7 +230,7 @@ http://server/news.php?id=5 and ascii(substring((SELECT concat(username,0x3a,pas
 ~~~
 <details>
 <summary>Notes</summary>
-~~~
+---
 dig +short myip.opendns.com @resolver1.opendns.com
 dig TXT +short o-o.myaddr.l.google.com @ns1.google.com
-~~~
+---
