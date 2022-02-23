@@ -1,7 +1,7 @@
 ---
 title: Advent of Code 2018 - Sample
 category: Article
-author: readloud
+author: 読み上げ
 post_list: "date"
 collection_list: true
 toc: true
