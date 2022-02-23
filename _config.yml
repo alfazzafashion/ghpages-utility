@@ -16,7 +16,7 @@ collection_order    :
   [
     "posts",
     "aoc2018",
-    "linux",
+    "cheatsheet",
     "tools",
     "repository",
     "notes",
@@ -29,7 +29,7 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Article"
-  linux:
+  cheatsheet:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
