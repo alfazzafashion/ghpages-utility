@@ -1,3 +1,9 @@
+---
+title: APACHE STRUTS VULNERABILITY CVE 2017-5638
+category: Sample
+date: 2019-2-4
+---
+
 APACHE STRUTS VULNERABILITY CVE 2017-5638
 
 Content­Type: ${(#_='multipart/form­data')}...
