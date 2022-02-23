@@ -13,7 +13,6 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-category: Article
 date: 2018-6-12
 excerpt: "Advent of Code 2018 - Sample."
 ---
