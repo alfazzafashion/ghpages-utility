@@ -4,7 +4,7 @@ owner               : "読み上げ"
 url                 : "https://readloud.github.io"
 baseurl             : "/"
 permalink           : /:title/
-description         : "Read Loud is intended for users who prefer to listen to content instead of reading."
+description         : "Read Aloud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model."
 markdown            : kramdown
 statement           : "読み上げ - All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
