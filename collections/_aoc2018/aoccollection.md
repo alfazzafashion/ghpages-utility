@@ -19,9 +19,9 @@ excerpt: "Advent of Code Collection"
 
 # Awesome Advent of Code Collection
 
-This is a collection of awesome resources related to the yearly [Advent of Code] challenge.
+This is a collection of awesome resources related to the yearly 'ADVENT OF CODE' challenge.
 
-[Advent of Code](https://adventofcode.com/)
+## Advent of Code
 
 * [The Official AoC Website](https://adventofcode.com/)
 * [The AoC Subreddit](https://www.reddit.com/r/adventofcode/)
