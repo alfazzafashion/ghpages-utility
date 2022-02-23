@@ -16,7 +16,7 @@ toc_level: 4
 category: Sample
 date: 2018-6-12
 excerpt: "Advent of Code 2018."
-abstract: "Building and running Advent of Code takes a significant amount of my time and energy."
+abstract: "Building and running Advent of Code takes a significant amount of time and energy."
 ---
 
 ## Advent of Code is free to use.
@@ -276,7 +276,7 @@ print(f"Flag for part two: {partTwo}.")
 ```
 ## Download and Documentation
 
-[**Advent of Code**(homepage)](https://adventofcode.com/)
+[**Advent of Code**(homepage)](https://adventofcode.com/2018)
 
 [nneonneo (eqgrp-free-file)](https://github.com/nneonneo/eqgrp-free-file.git)
   
