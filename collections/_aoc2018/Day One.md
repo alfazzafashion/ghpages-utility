@@ -46,8 +46,8 @@ while r != -1:
       break
     twice.append(c)
     ```
-    ## Advent of Code 2018
-<Details>
+<details>
+<summary>Advent of Code 2018</summary>
 * https://adventofcode.com/
 * https://github.com/nneonneo/eqgrp-free-file.git
 * https://github.com/nneonneo/ffsend.git
