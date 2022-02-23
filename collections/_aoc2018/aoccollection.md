@@ -1,7 +1,7 @@
 ---
 title: Advent of Code Collection
 category: Article
-author: readloud
+author: 読み上げ
 post_list: "date"
 collection_list: true
 toc: true
@@ -13,10 +13,8 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-category: Sample
 date: 2018-8-12
 excerpt: "Advent of Code Collection"
-abstract:
 ---
 
 # Awesome Advent of Code Collection
