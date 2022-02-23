@@ -13,10 +13,9 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-category: Sample
+category: Article
 date: 2018-6-12
 excerpt: "Advent of Code 2018 - Sample."
-abstract: "Building and running Advent of Code takes a significant amount of time and energy."
 ---
 
 ## Advent of Code is free to use.
