@@ -298,4 +298,4 @@ print(f"Flag for part two: {partTwo}.")
 
 ## Documentation
 
-[aoc2018 (download)](https://github.com/readloud/aoc2018.git)
+[aoc2018 (download)](https://github.com/readloud/Advent-of-Code.git)
