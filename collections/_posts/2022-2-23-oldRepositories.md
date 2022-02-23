@@ -8,22 +8,15 @@ date: 2022-2-23
 
 ![sample-img](https://avatars.githubusercontent.com/u/67372333?s=40&v=4)
 
-1. [Part1]({{site.url}}{{site.baseurl}}/repository/p1/)
-2. [Part2]({{site.url}}{{site.baseurl}}/repository/p2/)
-3. [Part3]({{site.url}}{{site.baseurl}}/repository/p3/)
-4. [Part4]({{site.url}}{{site.baseurl}}/repository/p4/)
-5. [Part5]({{site.url}}{{site.baseurl}}/repository/p5/)
-6. [Part6]({{site.url}}{{site.baseurl}}/repository/p6/)
-7. [Part7]({{site.url}}{{site.baseurl}}/repository/p7/)
-8. [Part8]({{site.url}}{{site.baseurl}}/repository/p8/)
-9. [Part9]({{site.url}}{{site.baseurl}}/repository/p9/)
-10. [Part10]({{site.url}}{{site.baseurl}}/repository/p10/)
-
-### Table
-
-| Part        | Link   | Status    |
-| :----------- | :-------- | :------ |
-| [Part1] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
-| [Part2] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
-| [Part3] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
-| [Part4] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
+| Part        | Status |
+| :----------- | :------ |
+| [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
+| [Part2]({{site.url}}{{site.baseurl}}/repository/p2/) | active |
+| [Part3]({{site.url}}{{site.baseurl}}/repository/p3/) | active |
+| [Part4]({{site.url}}{{site.baseurl}}/repository/p4/) | active |
+| [Part5]({{site.url}}{{site.baseurl}}/repository/p5/) | active |
+| [Part6]({{site.url}}{{site.baseurl}}/repository/p6/) | active |
+| [Part7]({{site.url}}{{site.baseurl}}/repository/p7/) | active |
+| [Part8]({{site.url}}{{site.baseurl}}/repository/p8/) | active |
+| [Part9]({{site.url}}{{site.baseurl}}/repository/p9/) | active |
+| [Part10]({{site.url}}{{site.baseurl}}/repository/p10/) | active |
