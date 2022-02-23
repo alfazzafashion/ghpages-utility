@@ -1,6 +1,6 @@
 ---
 title: Old Repositories
-category: Repository
+category: Github Repo
 date: 2022-2-23
 author: 読み上げ
 post_list: "date"
@@ -14,7 +14,7 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-excerpt: "Awsome Advent of Code."
+excerpt: "Old Repositories."
 ---
 
 ## Old Repositories
