@@ -13,7 +13,7 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-date: 2018-8-12
+date: 2022-1-23
 excerpt: "Advent of Code Collection"
 ---
 
