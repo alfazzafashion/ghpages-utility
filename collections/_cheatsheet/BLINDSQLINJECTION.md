@@ -13,11 +13,9 @@ comment: true
 ## So let’s start with some action.
 
 ### CHECK FOR VULNERABILITY.
-Let’s say that we have some site like this.
-http://server/news.php?id=5 
+Let’s say that we have some site like this. http://server/news.php?id=5 
 
-Now to test if is vulrnable we add to the end of url’ (quote), and that would be:
-http://server/news.php?id=5' 
+Now to test if is vulrnable we add to the end of url’ (quote), and that would be: http://server/news.php?id=5' 
 
 So if we get some error like
 ~~~
@@ -30,11 +28,11 @@ Well if the MySQL version is < 5 (example, 4.1.33, 4.1.12…), we must guess tab
 Common table names are: user/s, admin/s, member/s. 
 Common table names are: user/s, admin/s, member/s. 
 Common column names are: username, user, usr, user_name, password, pass, passwd, pwd etc…
+
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,2,3 from admin/*
 ~~~
-(We see number 2 on the screen like before, and that’s good).
 We get username displayed on screen, example would be admin, or superadmin etc…
 Now to check if column password exists.
 ~~~bash
