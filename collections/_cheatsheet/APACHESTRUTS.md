@@ -2,7 +2,7 @@
 title: APACHE STRUTS VULNERABILITY CVE 2017-5638 - Quick Sort
 category: Article
 date: 2019-2-19
-author: Read Loud
+author: 読み上げ
 comment: true
 ---
 
