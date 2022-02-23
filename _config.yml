@@ -1,12 +1,12 @@
 # 1. Site Settings
 title               : Read Loud
-owner               : "Text to Speech"
+owner               : "読み上げ"
 url                 : "https://readloud.github.io"
 baseurl             : "/"
 permalink           : /:title/
 description         : "Read Loud is intended for users who prefer to listen to content instead of reading."
 markdown            : kramdown
-statement           : "All Rights Reserved"
+statement           : "読み上げ - All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -79,7 +79,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "readloud"  # author name by default
+      author              : "ReadLoud"  # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
