@@ -15,10 +15,7 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 collection_order    : 
   [
     "posts",
-    "aoc2018",
-    "cheatsheet",
     "tools",
-    "repository",
     "notes",
     "gallery",
     "portfolio",
@@ -79,11 +76,11 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "ReadLoud"  # author name by default
+      author              : "読み上げ"   # author name by default
       show_date           : true        # whether show date message by default
-      category            :             # category by default
+      category            : course      # category by default
       post_list           : false       # whether show list of post by default      
-      comment             : true
+      comment             : true        # whether show comment of post by default 
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
