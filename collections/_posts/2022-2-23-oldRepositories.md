@@ -18,3 +18,12 @@ date: 2022-2-23
 8. [Part8]({{site.url}}{{site.baseurl}}/repository/p8/)
 9. [Part9]({{site.url}}{{site.baseurl}}/repository/p9/)
 10. [Part10]({{site.url}}{{site.baseurl}}/repository/p10/)
+
+### Table
+
+| Part        | Link   | Status    |
+| :----------- | :-------- | :------ |
+| [Part1] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
+| [Part2] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
+| [Part3] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
+| [Part4] | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
