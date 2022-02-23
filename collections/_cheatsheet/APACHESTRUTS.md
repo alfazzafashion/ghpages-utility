@@ -2,16 +2,23 @@
 title: APACHE STRUTS VULNERABILITY CVE 2017-5638 - Quick Sort
 category: Sample
 date: 2019-2-19
+author: Read Loud
+category: Sample
+comment: true
 ---
 
-# APACHE STRUTS VULNERABILITY CVE 2017-5638
+# What is CVE-2017-5638?
+Struts is vulnerable to remote command injection attacks through incorrectly parsing an attacker’s invalid Content-Type HTTP header. The Struts vulnerability allows these commands to be executed under the privileges of the Web server. This is full remote command execution and has been actively exploited in the wild from the initial disclosure.
 
-$$
+The vulnerable code is in the Jakarta Multipart parser. If the Content-Type value isn’t valid, that is, it does not match an expected valid type, an exception is thrown that is then used to display an error message to a user. In this case, we can set the Content-Type to an OGNL expression such as:
+
+~~~bash
 Content­Type: ${(#_='multipart/form­data')}...
 #eps=#container.toString()
 #cmds=({'/bin/echo', #eps})
 com.opensymphony.xwork2.inject.ContainerImpl@d0d2b00
-$$
+~~~
+![img-sample](https://www.synopsys.com/blogs/software-security/wp-content/uploads/HTTPRequestWithCurl.png)
 
 ## FIND POTENTIAL TARGETS
 
