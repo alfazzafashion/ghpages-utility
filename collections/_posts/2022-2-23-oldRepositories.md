@@ -2,6 +2,19 @@
 title: Old Repositories
 category: Repository
 date: 2022-2-23
+author: 読み上げ
+post_list: "date"
+collection_list: true
+toc: true
+show_date: true
+publish: true
+home_btn: true
+btn_text: true
+footer: true
+maximize: true
+encrypted_text: true
+toc_level: 4
+excerpt: "Awsome Advent of Code."
 ---
 
 ## Old Repositories
