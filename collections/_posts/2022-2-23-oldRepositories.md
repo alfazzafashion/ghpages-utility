@@ -6,9 +6,7 @@ date: 2022-2-23
 
 ## Old Repositories
 
-![sample-img](https://avatars.githubusercontent.com/u/67372333?s=40&v=4)
-
-| Part        | Status |
+| ![sample-img](https://avatars.githubusercontent.com/u/67372333?s=40&v=4) | Status |
 | :----------- | :------ |
 | [Part1]({{site.url}}{{site.baseurl}}/repository/p1/) | active |
 | [Part2]({{site.url}}{{site.baseurl}}/repository/p2/) | active |
