@@ -1,5 +1,5 @@
 ---
-title: Advent of Code 2018
+title: Advent of Code 2018 - Sample
 category: Article
 author: readloud
 post_list: "date"
@@ -15,7 +15,7 @@ encrypted_text: true
 toc_level: 4
 category: Sample
 date: 2018-6-12
-excerpt: "Advent of Code 2018."
+excerpt: "Advent of Code 2018 - Sample."
 abstract: "Building and running Advent of Code takes a significant amount of time and energy."
 ---
 
