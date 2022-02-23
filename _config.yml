@@ -15,8 +15,8 @@ bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]
 collection_order    : 
   [
     "posts",
+    "aoc2018",
     "linux",
-    "windows",
     "tools",
     "repository",
     "notes",
@@ -33,10 +33,11 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-  windows:
+  aoc2018:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
+    alias           : "Advent of Code"
   tools:
     output          : true
     permalink       : /:collection/:title/
