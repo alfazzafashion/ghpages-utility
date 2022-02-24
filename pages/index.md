@@ -1,6 +1,6 @@
 ---
 layout: default
-post_list: true
+post_list: false
 toc: true
 toc_level: 6
 comment: false
@@ -8,7 +8,7 @@ home_btn: true
 btn_text: true
 footer: true
 title: "Read Loud"
-author: "Read Loud"
+author: "読み上げ"
 encrypted_text: true
 permalink: /
 ---
