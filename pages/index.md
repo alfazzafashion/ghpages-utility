@@ -1,7 +1,6 @@
 ---
 layout: default
 post_list: true
-collection_list: true
 toc: true
 toc_level: 6
 comment: false
@@ -42,9 +41,7 @@ permalink: /
 | Nov 13, 2018 | v2.14c    | 12kb    | No irreversible damage |
 | Nov 15, 2018 | v1.99 LTS | 4kb     | Irreversible damage    |
 
-### Diagram and Chart
-
-#### Pie Chart
+### Pie Chart
 
 ```mermaid
 pie
