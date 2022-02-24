@@ -1,5 +1,5 @@
 ---
-title: The Muppets sing the classic theme from The Muppets Show | The Muppets
+title: The Muppets Show Classic Theme | The Muppets!
 category: Videos
 comment: false
 ---
