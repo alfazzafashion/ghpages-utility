@@ -7,10 +7,7 @@ comment: false
 ---
 
 <!-- aes encrypt and decrypt method -->
-<script
-  src="{{ site.url }}{{ site.baseurl }}{{ site.assets_path }}/js/sjcl.js"
-  async
-></script>
+<script src="{{ site.url }}{{ site.baseurl }}{{ site.assets_path }}/js/sjcl.js" async></script>
 
 <div class="div_token">
   <table>
@@ -28,8 +25,7 @@ comment: false
             rows="1"
             cols="50"
             id="pwd"
-            style="resize: vertical;"
-          ></textarea>
+            style="resize: vertical;"></textarea>
         </td>
         <td></td>
       </tr>
@@ -43,11 +39,10 @@ comment: false
             rows="5"
             cols="50"
             id="msg"
-            style="resize: vertical;"
-          ></textarea>
+            style="resize: vertical;"></textarea>
         </td>
-        <td><button class="encrypt" onclick="encrypt()">Encrypt</button></td>
-      </tr>
+       </tr>
+	    <td><button class="encrypt" onclick="encrypt()">Encrypt</button></td>
       <tr>
         <td>Ciphertext</td>
         <td>
@@ -56,11 +51,10 @@ comment: false
             rows="5"
             cols="50"
             id="ct"
-            style="resize: vertical;"
-          ></textarea>
+            style="resize: vertical;"></textarea>
         </td>
-        <td><button class="encrypt" onclick="decrypt()">Decrypt</button></td>
-      </tr>
+        </tr>
+		<td><button class="encrypt" onclick="decrypt()">Decrypt</button></td>
       <tr>
         <td>Minimized</td>
         <td>
@@ -69,10 +63,9 @@ comment: false
             rows="5"
             cols="50"
             id="min_text"
-            style="resize: vertical;"
-          ></textarea>
+            style="resize: vertical;">
+          </textarea>
         </td>
-        <td></td>
       </tr>
     </tbody>
   </table>
