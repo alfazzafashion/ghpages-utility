@@ -12,6 +12,7 @@ encrypted_text: true
 <img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo">
 
 # 読み上げ - ReadLoud
+</br>
 
 <br>
 ***IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.***
