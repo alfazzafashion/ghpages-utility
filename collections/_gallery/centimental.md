@@ -1,7 +1,9 @@
 ---
 title: Centimental!
-category: Wallpaper
+category: Video
 comment: false
 ---
 
-![img-smpl]({{site.url}}{{site.baseurl}}/src/assets/img/tumblr.gif)
+<center>
+<video preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
+<source src="{{site.url}}{{site.baseurl}}/src/assets/img/globe.mp4"></video>
