@@ -137,5 +137,5 @@ $ sudo python jexboss.py -u http://example.com/login.action
 <details>
 <summary>Complete Guide</summary>
 <a href="https://www.netsparker.com/blog/web-security/finding-exploiting-apache-struts-vulnerabilities"/>netsparker</a>
- <br>
+
 <a href="https://github.com/search?q=apachestruts&type=all/>Related Articles</a>
