@@ -5,7 +5,7 @@ comment: false
 <!-- LOGO -->
 <br />
 <p align="center">
-  <a href="/"><img src="https://akiritsu.github.io/pRoJEct-VeXEd/src/assets/img/favicon.png" alt="Logo" width="80" height="80"></a>
+  <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
   <h3 align="center">pRoJEct-VeXEd v 2.4</h3>
   <br />
   <p align="center">
