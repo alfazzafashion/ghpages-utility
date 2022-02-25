@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+comment: false
 ---
 
 <h1>Privacy Policy for Read Loud</h1>
