@@ -15,10 +15,10 @@ encrypted_text: true
 
 # 読み上げ - ReadLoud
 
-<br />
+<br>
 ***IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.***
 
-<br />
+<br>
 > Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
 
 
