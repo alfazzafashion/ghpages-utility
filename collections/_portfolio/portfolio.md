@@ -8,13 +8,12 @@ comment: false
   <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
   <h3 align="center">読み上げ - ReadLoud</h3>
   <br />
-
+<p align="center">
+IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
+<br />
+> Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
+ <br />
 <!-- TABLE OF CONTENTS -->
-# IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
-
-<br>
-> Reads out loud texts, web pages, pdfs & ebooks with natural sounding voices.V.
-
 ## Features
 
 - Highly customizable with user-friendly hacker-like design.
