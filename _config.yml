@@ -7,7 +7,7 @@ permalink           : /:title/
 description         : "Read Aloud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model."
 markdown            : kramdown
 statement           : "読み上げ - All Rights Reserved"
-bgtext              : "If your actions inspire others to dream more learn more do more and become more you are a leader ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
+bgtext              : "ABCDEFGHIJKLMNOPQRTUSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 
 # 2. Your Collections
