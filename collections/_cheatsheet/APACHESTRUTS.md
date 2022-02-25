@@ -8,8 +8,9 @@ comment: true
 
 ## Apache Struts
 What is [Apache Struts](https://www.whitehatsec.com/glossary/content/apache-struts)?
+<br>
 Apache Struts is an open-source web application framework used for creating Java EE web applications. It became a top-level Apache project in 2005. 
-Without Apache Struts, a standard Java EE web application receives information to a server through a web form submitted by a client or similar user. The information is then given to a Java Servlet or JavaServer Pages. In the Java Servlet, the information communicated interacts with a database and creates a response in HTML. Similarly, JavaServer Pages can be used to blend Java code and HTML for the same result. 
+Without Apache Struts, a standard Java EE web application receives information to a server through a web form submitted by a client or similar user. The information is then given to a Java Servlet or JavaServer Pages. In the Java Servlet, the information communicated interacts with a database and creates a response in HTML. Similarly, JavaServer Pages can be used to blend Java code and HTML for the same result. <br>
 Since these approaches mix presentation with application logic, they can make maintenance difficult for large projects. Apache struts is used to help amend that.
 Apache Struts helps fix the problems created with a standard Java EE web application by separating the model (the application logic that interacts with a database) from the view (HTML pages shown to the client) and from the controller (information that passes between the model and view). Struts provides the controller and promotes the writing of templates for the presentation layer or view. The programmer needs to write the model code and create a central configurate file that binds together model, view, and controller.
 
@@ -71,13 +72,17 @@ The curl command shown above demonstrates whether the server is vulnerable or no
 ~ inurl:index.do
 ~ inurl:index.java
 
-## DEPENDENCIES
+## TOOLS
 
 ~~~bash
-git clone https://github.com/s1kr10s/Apache-Struts-v3.git
+git clone https://github.com/s1kr10s/Apache-Struts-v4.git
 git clone https://github.com/drigg3r/Struts-Apache-ExploitPack.git
 git clone https://github.com/opsdisk/pagodo.git
 git clone https://github.com/3ndG4me/torphantom.git
+~~~
+***or
+~~~bash
+git clone https://github.com/andrefernandes86/demo-apachestruts-attacker-web.git
 ~~~
 
 ## Optional
