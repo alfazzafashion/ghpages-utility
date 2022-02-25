@@ -1,9 +1,7 @@
 ---
-title: Privacy Policy
+title: Privacy Policy for Read Loud
 comment: false
 ---
-
-<h1>Privacy Policy for Read Loud</h1>
 
 <p>At Read Loud, accessible from https://readloud.github.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Read Loud and how we use it.</p>
 
