@@ -6,11 +6,11 @@ author: 読み上げ
 comment: true
 ---
 
-## Apache Struts
-What is [Apache Struts](https://www.whitehatsec.com/glossary/content/apache-struts)?
-<br>
+## What is [Apache Struts](https://www.whitehatsec.com/glossary/content/apache-struts)?
+
 Apache Struts is an open-source web application framework used for creating Java EE web applications. It became a top-level Apache project in 2005. 
-Without Apache Struts, a standard Java EE web application receives information to a server through a web form submitted by a client or similar user. The information is then given to a Java Servlet or JavaServer Pages. In the Java Servlet, the information communicated interacts with a database and creates a response in HTML. Similarly, JavaServer Pages can be used to blend Java code and HTML for the same result. <br>
+Without Apache Struts, a standard Java EE web application receives information to a server through a web form submitted by a client or similar user. The information is then given to a Java Servlet or JavaServer Pages. In the Java Servlet, the information communicated interacts with a database and creates a response in HTML. Similarly, JavaServer Pages can be used to blend Java code and HTML for the same result. 
+
 Since these approaches mix presentation with application logic, they can make maintenance difficult for large projects. Apache struts is used to help amend that.
 Apache Struts helps fix the problems created with a standard Java EE web application by separating the model (the application logic that interacts with a database) from the view (HTML pages shown to the client) and from the controller (information that passes between the model and view). Struts provides the controller and promotes the writing of templates for the presentation layer or view. The programmer needs to write the model code and create a central configurate file that binds together model, view, and controller.
 
@@ -27,9 +27,12 @@ Apache Struts 2 was released in February 2007 and the rebranding of WebWork 2.2.
 
 ## Vulnerabilities within Apache Struts
 Struts has had numerous vulnerabilities disclosed, many based on its use of OGNL (Object-Graph Navigation Language). Many of these vulnerabilities have been particularly serious as they allow an attacker to carry out arbitrary remote code execution, potentially allowing complete control of the server. 
+
 The most high-profile Struts exploit happened in September 2017’s Equifax breach, which took advantage of a Struts vulnerability disclosed 6 months earlier. 
 Whilst some vulnerabilities were discovered within Struts 1 ( Denial of Service: [CVE-2006-1547](https://www.cvedetails.com/cve/CVE-2006-1547/), Cross Site Scripting: [CVE-2008-2025](https://www.cvedetails.com/cve/CVE-2008-2025/)), most vulnerabilities have been found on Struts 2 with many tied to the usage of OGNL technology.
+
 In 2016 there were 16 unique CVE’s released relating to Apache Struts 2 which like Struts 1 included, Denial of Service & Cross Site Scripting but further included Remote Code Execution and CSRF.
+
 In 2017 there were 15 16 unique CVE’s. It was in 2017 it was discovered that certain versions of the [Apache Struts 2](https://www.whitehatsec.com/blog/apache-struts-cve-2017/) Framework (Struts 2.3.5 – 2.3.31 and 2.5 – 2.5.10) were vulnerable to remote code execution attacks. This allowed attackers to deliver malicious payloads. To prevent these attacks, it was recommended to upgrade to Apache Struts version 2.3.32 or 2.5.10.1.
 You’ll gain a comprehensive understanding of the state of application security across the whole software development life cycle by reading through our [latest Stats Report](https://www.whitehatsec.com/resources-category/threat-reports/).
 
