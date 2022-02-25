@@ -198,7 +198,6 @@ abstract: "This is abstract. Abstract is blank by default." # string
 3. Slide mode.
 4. Rapid cheatsheet access.
 
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -221,3 +220,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 DeerRIDER - [Email](mailto://deerrider666@outlook.com)
 
 Project Link: [akiritsu/pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
+
+## Download and Documentation
+
+[**pRoJEct VeXEd README (Github)**](https://github.com/akiritsu/pRoJEct-VeXEd)
+
+[Download ZIP files](https://codeload.github.com/akiritsu/pRoJEct-VeXEd/zip/master)
+
+[中文自述及使用教程](https://akiritsu.github.io/pRoJEct-VeXEd/readme-zhcn/)
