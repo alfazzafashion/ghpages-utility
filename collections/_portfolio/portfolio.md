@@ -8,7 +8,7 @@ comment: false
   <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
   <h3 align="center">読み上げ - ReadLoud</h3>
   <br />
-<p align="center">
+
 IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
 <br />
 
