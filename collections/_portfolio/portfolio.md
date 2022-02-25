@@ -1,5 +1,6 @@
 ---
 title: Founder
+comment: false
 ---
 <!-- LOGO -->
 <br />
