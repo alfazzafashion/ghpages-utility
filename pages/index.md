@@ -1,4 +1,6 @@
 ---
+title: "Read Loud"
+author: "読み上げ"
 layout: default
 post_list: false
 toc: true
@@ -7,8 +9,6 @@ comment: false
 home_btn: true
 btn_text: true
 footer: true
-title: "Read Loud"
-author: "読み上げ"
 encrypted_text: true
 permalink: /
 ---
@@ -23,14 +23,6 @@ permalink: /
 - Decrypt and encrypt text (access token: 233):
   - secret msg example:
   <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-
-## Download and Documentation
-
-[**pRoJEct VeXEd README (Github)**](https://github.com/akiritsu/pRoJEct-VeXEd)
-
-[Download ZIP files](https://codeload.github.com/akiritsu/pRoJEct-VeXEd/zip/master)
-
-[中文自述及使用教程](https://akiritsu.github.io/pRoJEct-VeXEd/readme-zhcn/)
 
 ### Table
 
