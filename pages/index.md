@@ -20,7 +20,7 @@ permalink: /
 
 ## Features
 
-- Decrypt and encrypt text (access token: 233):
+- Read secret text use (access token: 233):
   - secret msg example:
   <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
@@ -33,15 +33,3 @@ permalink: /
 | Note | ノート | Archives    | Allowed |
 | Gallery | マイギャラリー | Archives | Not Allowed |
 | Portfolio | ポートフォリオ | Archives | Not Allowed |
-
-### Pie Chart
-
-```mermaid
-pie
-    title Pie Chart
-    "Dogs" : 36
-    "Cats" : 85
-    "Rats" : 150
-    "Pheonix" : 120
-    "Elephant" : 330 
-```
