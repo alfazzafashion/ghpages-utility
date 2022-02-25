@@ -1,8 +1,6 @@
 ---
 title: About
 comment: false
-layout: default
-post_list: false
 toc: false
 home_btn: true
 btn_text: true
