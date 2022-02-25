@@ -6,7 +6,5 @@ encrypted_text: true
 ---
 <details>
 <summary>Hot Girl!</summary>
-$this->encrypt->encode('//readloud.github.io/src/assets/img/h264.mp4');
-$this->encrypt->decode('//readloud.github.io/src/assets/img/h264.mp4');
 <video preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
-<source src="//readloud.github.io/src/assets/img/h264.mp4"></video>
+<source src="//cloud.video.alibaba.com/play/u/2153292369/p/1/e/6/t/1/d/hd/234422154401.mp4"></video>
