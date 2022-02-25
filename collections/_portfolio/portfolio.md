@@ -6,7 +6,7 @@ comment: false
 <br />
 <p align="center">
   <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
-  <h3 align="center">pRoJEct-VeXEd v 2.4</h3>
+  <h3 align="center">読み上げ - ReadLoud</h3>
   <br />
 
 <!-- TABLE OF CONTENTS -->
