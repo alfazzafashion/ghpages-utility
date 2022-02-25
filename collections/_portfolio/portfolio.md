@@ -1,7 +1,17 @@
 ---
 title: About
 comment: false
+layout: default
+post_list: false
+toc: false
+home_btn: true
+btn_text: true
+footer: true
+title: "Read Loud"
+author: "読み上げ"
+encrypted_text: true
 ---
+
 <!-- LOGO -->
 <p align="center">
   <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
@@ -9,8 +19,8 @@ comment: false
   <br />
 
 ***IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.***
-<br />
 
+<br />
 > Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
 
 
@@ -44,19 +54,22 @@ for i in range(n):
   - secret msg example:
   <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
+
 ## Download and Documentation
 
-[**pRoJEct VeXEd README (Github)**](https://github.com/akiritsu/pRoJEct-VeXEd)
+[**pRoJEct VeXEd README (Github)**]()
 
-[Download ZIP files](https://codeload.github.com/akiritsu/pRoJEct-VeXEd/zip/master)
+[Download ZIP files]()
 
-[中文自述及使用教程](https://akiritsu.github.io/pRoJEct-VeXEd/readme-zhcn/)
+[中文自述及使用教程]()
+
 
 ## More Samples
 
 ### Font style and link
 
 normal **bold** _italic_ ~~strikethrough~~ `keyword` [Link to Google](www.google.com)
+
 
 ### List
 
@@ -67,6 +80,7 @@ normal **bold** _italic_ ~~strikethrough~~ `keyword` [Link to Google](www.google
 - unordered list
   - sublist
 
+
 ### Table
 
 | Date         | Version   | Size    | Comment                |
@@ -75,6 +89,7 @@ normal **bold** _italic_ ~~strikethrough~~ `keyword` [Link to Google](www.google
 | Nov 12, 2018 | v2.14c    | 1230 kb | No irreversible damage |
 | Nov 13, 2018 | v2.14c    | 12kb    | No irreversible damage |
 | Nov 15, 2018 | v1.99 LTS | 4kb     | Irreversible damage    |
+
 
 ### Diagram and Chart
 
