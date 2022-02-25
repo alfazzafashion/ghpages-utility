@@ -1,5 +1,5 @@
 ---
-title: Founder
+title: About
 comment: false
 ---
 <!-- LOGO -->
