@@ -1,5 +1,6 @@
 ---
 title: License
+comment: false
 ---
 
 MIT License
