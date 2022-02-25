@@ -7,78 +7,18 @@ toc: false
 home_btn: true
 btn_text: true
 footer: true
-title: "Read Loud"
 author: "読み上げ"
 encrypted_text: true
 ---
 
-<!-- LOGO -->
-<p align="center">
-  <a href="/"><img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
-  <h3 align="center">読み上げ - ReadLoud</h3>
-  <br />
+<img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
+
+# 読み上げ - ReadLoud
 
 ***IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.***
 
 <br />
 > Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
-
-
-<!-- TABLE OF CONTENTS -->
-## Features
-
-- Highly customizable with user-friendly hacker-like design.
-- Easy to gather your notes or portfolios with multiple collection design.
-- Supports formula insertion with `MathJax`.
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-
-- Supports code highlight with `Rouge`.
-
-```python
-arr = [10, 7, 8, 9, 1, 5]
-n = len(arr)
-quickSort(arr,0,n-1)
-print ("Sorted array is:")
-for i in range(n):
-    print ("%d" %arr[i]),
-```
-
-- Decrypt and encrypt text (access token: 233):
-  - secret msg example:
-  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-
-
-## Download and Documentation
-
-[**pRoJEct VeXEd README (Github)**]()
-
-[Download ZIP files]()
-
-[中文自述及使用教程]()
-
-
-## More Samples
-
-### Font style and link
-
-normal **bold** _italic_ ~~strikethrough~~ `keyword` [Link to Google](www.google.com)
-
-
-### List
-
-1. ordered list item 1
-   1. sublist
-      1. subsublist
-
-- unordered list
-  - sublist
 
 
 ### Table
@@ -130,11 +70,6 @@ A[Hard edge] -->B(Round edge)
     C -->|Two| E[Result two]
 ```
 
-### More Texts
-
-Λορεμ ιπσθμ δολορ σιτ αμετ, νονθμυ δολορεσ πρινcιπεσ εαμ αν, ρεγιονε σθσcιπιτ αccθσατα νε πρι, εα εαμ γραεcο μελιθσ αccθσαμ. Vολθπτθα δισσεντιασ τε ηασ, τε πρι σθασ ηαρθμ αδιπισcινγ. Qθο ατ ιθστο ταcιματεσ, μελ εραντ ρεπθδιανδαε ετ. Ετ τιμεαμ cονcεπταμ αccομμοδαρε νεc, ιδ σεα μελιορε λθπτατθμ. Αδ περσεcθτι cοντεντιονεσ θσθ. Ηομερο νοστρο θταμθρ εαμ εξ.
-
-Νεc ιδ λεγερε ρεγιονε διcερετ, vιμ εθ νιβη ιριθρε cορπορα. Αδ vιξ διcο νατθμ εσσεντ. Ιλλθδ αλιqθιδ ει σιτ, δοcτθσ vιδισσε δετραξιτ αν μεα. Ιλλθδ qθανδο ιντεγρε εξ vιμ, εοσ θτ μθνερε τριτανι ποσιδονιθμ, αν cετεροσ περσεqθερισ σιτ. Λατινε δισcερε vοcιβθσ πρι νο, vιμ cθ νοστρο μαλθισσετ vολθπταρια.
 
 ### More Codes
 
