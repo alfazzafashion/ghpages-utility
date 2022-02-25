@@ -2,6 +2,7 @@
 title: Hot Girl!
 category: Wallpaper
 comment: false
+encrypted_text: true
 ---
 <details>
 <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Hot Girl!</p>
