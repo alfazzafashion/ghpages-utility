@@ -24,14 +24,15 @@ permalink: /
   - secret msg example:
   <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
-### Table
+### Directory
 
-| Date         | Version   | Size    | Comment                |
+| Dir Name  | Alias | Link | Comment |
 | :----------- | :-------- | :------ | :--------------------- |
-| Nov 11, 2018 | v2.14c    | 240 kb  | No irreversible damage |
-| Nov 12, 2018 | v2.14c    | 1230 kb | No irreversible damage |
-| Nov 13, 2018 | v2.14c    | 12kb    | No irreversible damage |
-| Nov 15, 2018 | v1.99 LTS | 4kb     | Irreversible damage    |
+| Posts | 投稿  | Archives  | Allowed |
+| Tools | ツール | Archives | Not Allowed |
+| Note | ノート | Archives    | Allowed |
+| Gallery | マイギャラリー | Archives | Not Allowed |
+| Portfolio | ポートフォリオ | Archives | Not Allowed |
 
 ### Pie Chart
 
