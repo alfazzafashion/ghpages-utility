@@ -1,94 +1,39 @@
-public class MyDB : IdentityDbContext<User>
-{  
-    //DBSet properties go here
+class Encryption {
+    var $skey   = "SuPerEncKey2010"; // you can change it
 
-	public MyDB()
-	{
-		((IObjectContextAdapter)this).ObjectContext.ObjectMaterialized += new ObjectMaterializedEventHandler(ObjectMaterialized);
-	}
+    public  function safe_b64encode($string) {
 
-	#region Encryption
+        $data = base64_encode($string);
+        $data = str_replace(array('+','/','='),array('-','_',''),$data);
+        return $data;
+    }
 
-	public override int SaveChanges()
-	{
-		var contextAdapter = ((IObjectContextAdapter)this);
+    public function safe_b64decode($string) {
+        $data = str_replace(array('-','_'),array('+','/'),$string);
+        $mod4 = strlen($data) % 4;
+        if ($mod4) {
+            $data .= substr('====', $mod4);
+        }
+        return base64_decode($data);
+    }
 
-		contextAdapter.ObjectContext.DetectChanges(); //force this. Sometimes entity state needs a handle jiggle
+    public  function encode($value){ 
 
-		var pendingEntities = contextAdapter.ObjectContext.ObjectStateManager
-			.GetObjectStateEntries(EntityState.Added | EntityState.Modified)
-			.Where(en => !en.IsRelationship).ToList();
+        if(!$value){return false;}
+        $text = $value;
+        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB);
+        $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+        $crypttext = mcrypt_encrypt(MCRYPT_RIJNDAEL_256, $this->skey, $text, MCRYPT_MODE_ECB, $iv);
+        return trim($this->safe_b64encode($crypttext)); 
+    }
 
-		foreach (var entry in pendingEntities) //Encrypt all pending changes
-			EncryptEntity(entry.Entity);
+    public function decode($value){
 
-		int result = base.SaveChanges();
-
-		foreach (var entry in pendingEntities) //Decrypt updated entities for continued use
-			DecryptEntity(entry.Entity);
-
-		return result;
-	}
-
-	public override async Task<int> SaveChangesAsync(System.Threading.CancellationToken cancellationToken)
-	{
-		var contextAdapter = ((IObjectContextAdapter)this);
-
-		contextAdapter.ObjectContext.DetectChanges(); //force this. Sometimes entity state needs a handle jiggle
-
-		var pendingEntities = contextAdapter.ObjectContext.ObjectStateManager
-			.GetObjectStateEntries(EntityState.Added | EntityState.Modified)
-			.Where(en => !en.IsRelationship).ToList();
-
-		foreach (var entry in pendingEntities) //Encrypt all pending changes
-			EncryptEntity(entry.Entity);
-
-		var result = await base.SaveChangesAsync(cancellationToken);
-
-		foreach (var entry in pendingEntities) //Decrypt updated entities for continued use
-			DecryptEntity(entry.Entity);
-
-		return result;
-	}
-
-	void ObjectMaterialized(object sender, ObjectMaterializedEventArgs e)
-	{
-		DecryptEntity(e.Entity);
-	}
-
-	private void EncryptEntity(object entity)
-	{
-		//Get all the properties that are encryptable and encrypt them
-		var encryptedProperties = entity.GetType().GetProperties()
-			.Where(p => p.GetCustomAttributes(typeof(Encrypted), true).Any(a => p.PropertyType == typeof(String)));
-		foreach (var property in encryptedProperties)
-		{
-			string value = property.GetValue(entity) as string;
-			if (!String.IsNullOrEmpty(value))
-			{
-				string encryptedValue = EncryptionService.Encrypt(value);
-				property.SetValue(entity, encryptedValue);
-			}
-		}
-	}
-
-	private void DecryptEntity(object entity)
-	{
-		//Get all the properties that are encryptable and decyrpt them
-		var encryptedProperties = entity.GetType().GetProperties()
-			.Where(p => p.GetCustomAttributes(typeof(Encrypted), true).Any(a => p.PropertyType == typeof(String)));
-
-		foreach (var property in encryptedProperties)
-		{
-			string encryptedValue = property.GetValue(entity) as string;
-			if (!String.IsNullOrEmpty(encryptedValue))
-			{
-				string value = EncryptionService.Decrypt(encryptedValue);
-				this.Entry(entity).Property(property.Name).OriginalValue = value;
-				this.Entry(entity).Property(property.Name).IsModified = false;
-			}
-		}
-	}
-	
-	#endregion Encryption
+        if(!$value){return false;}
+        $crypttext = $this->safe_b64decode($value); 
+        $iv_size = mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB);
+        $iv = mcrypt_create_iv($iv_size, MCRYPT_RAND);
+        $decrypttext = mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $this->skey, $crypttext, MCRYPT_MODE_ECB, $iv);
+        return trim($decrypttext);
+    }
 }
