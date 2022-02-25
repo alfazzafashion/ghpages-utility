@@ -15,7 +15,7 @@ toc_level: 4
 category: Notes
 date: 2019-5-25
 excerpt: "Core Commands"
-abstract: "The Ultimate Command Cheat Sheet for Metasploit's Meterpreter."
+abstract: 
 ---
 
 ## Core Commands
