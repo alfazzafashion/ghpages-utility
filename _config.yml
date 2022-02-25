@@ -18,6 +18,7 @@ collection_order    :
     "posts",
     "tools",
     "notes",
+    "gallery",
     "portfolio",
    ]
 collections:
@@ -25,31 +26,34 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "Article"
+    alias           : "投稿"
   aoc2018:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "Advent of Code"
+    alias           : "コードの出現"
   tools:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "ツール"
   repository:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "リポジトリ"
   notes:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "My Notes"
+    alias           : "ノート"
   gallery:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "My Gallery"
+    alias           : "マイギャラリー"
   portfolio:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "ポートフォリオ"
     order	          : # specify post order manually
   posts:
     output          : true
