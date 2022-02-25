@@ -2,7 +2,7 @@
 title: "Read Loud"
 author: "読み上げ"
 layout: default
-post_list: false
+post_list: true
 toc: true
 toc_level: 6
 comment: false
