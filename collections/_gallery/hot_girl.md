@@ -1,6 +1,6 @@
 ---
 title: Hot Girl!
-category: Wallpaper
+category: Video
 comment: false
 encrypted_text: true
 ---
