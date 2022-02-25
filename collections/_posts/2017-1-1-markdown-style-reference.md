@@ -1,6 +1,6 @@
 ---
-title: Text Styles and Markdown Quick Reference
-author: DeerRIDER
+title: The Ultimate Command Cheat Sheet for Metasploit's Meterpreter
+author: 読み上げ
 post_list: "date"
 collection_list: true
 toc: true
@@ -12,130 +12,89 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-category: Sample
+category: Article
 date: 2019-5-25
-excerpt: "This is excerpt."
-abstract: "This is abstract. Abstract is blank by default."
+excerpt: "Core Commands"
+abstract: "The Ultimate Command Cheat Sheet for Metasploit's Meterpreter."
 ---
 
-## Style Test Below
+## Core Commands
 
-### Text
+### ? - help menu
 
-The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.
+**background** - moves the current session to the background
+bgkill - kills a background meterpreter script
+bglist - provides a list of all running background scripts
+bgrun - runs a script as a background thread
+channel - displays active channels
+close - closes a channel
+exit - terminates a meterpreter session
+help - help menu
+interact - interacts with a channel
+irb - go into Ruby scripting mode
+migrate - moves the active process to a designated PID
+quit - terminates the meterpreter session
+read - reads the data from a channel
+run - executes the meterpreter script designated after it
+use - loads a meterpreter extension
+write - writes data to a channel
 
-> blockquote
->
->Den wa Stad Schuebersonndeg, op all d'Pan hinnen. Ké net geet sech Mier, ass gutt Kaffi an. 
+### File System Commands
+cat - read and output to stdout the contents of a file
+cd - change directory on the victim
+del - delete a file on the victim
+download - download a file from the victim system to the attacker system
+edit - edit a file with vim
+getlwd - print the local directory
+getwd - print working directory
+lcd - change local directory
+lpwd - print local directory
+ls - list files in current directory
+mkdir - make a directory on the victim system
+pwd - print working directory
+rm - delete a file
+rmdir - remove directory on the victim system
+upload - upload a file from the attacker system to the victim
 
-Encrypted text (Key = "233"):<br>
-<p class="encrypted" id="elKwQPCOLF4w86wRItKMqge8qDO6fU80wbdANG6AnS8kgT8qAqGFC5VkVexu+4RBhBMUWwdkzEVo8HAKUT">Encrypted Text! Please enter correct token.</p>
+### Networking Commands
+ipconfig - displays network interfaces with key information including IP address, etc.
+portfwd - forwards a port on the victim system to a remote service
+route - view or modify the victim routing table
 
-### Font style and link
-* normal
-* **bold**
-* *italic*
-* ~~strikethrough~~
-* `keyword`
-* [Link to Google](www.google.com)
+### System Commands
+clearav - clears the event logs on the victim's computer
+drop_token - drops a stolen token
+execute - executes a command
+getpid - gets the current process ID (PID)
+getprivs - gets as many privileges as possible
+getuid - get the user that the server is running as
+kill - terminate the process designated by the PID
+ps - list running processes
+reboot - reboots the victim computer
+reg - interact with the victim's registry
+rev2self - calls RevertToSelf() on the victim machine
+shell - opens a command shell on the victim machine
+shutdown - shuts down the victim's computer
+steal_token - attempts to steal the token of a specified (PID) process
+sysinfo - gets the details about the victim computer such as OS and name
 
-### Code
+### User Interface Commands
+enumdesktops - lists all accessible desktops
+getdesktop - get the current meterpreter desktop
+idletime - checks to see how long since the victim system has been idle
+keyscan_dump - dumps the contents of the software keylogger
+keyscan_start - starts the software keylogger when associated with a process such as Word or browser
+keyscan_stop - stops the software keylogger
+screenshot - grabs a screenshot of the meterpreter desktop
+set_desktop - changes the meterpreter desktop
+uictl - enables control of some of the user interface components
 
-```python
-# Python program for implementation of Quicksort Sort 
-  
-# This function takes last element as pivot, places 
-# the pivot element at its correct position in sorted 
-# array, and places all smaller (smaller than pivot) 
-# to left of pivot and all greater elements to right 
-# of pivot 
-def partition(arr,low,high): 
-    i = ( low-1 )         # index of smaller element 
-    pivot = arr[high]     # pivot 
-  
-    for j in range(low , high): 
-  
-        # If current element is smaller than or 
-        # equal to pivot 
-        if   arr[j] <= pivot: 
-          
-            # increment index of smaller element 
-            i = i+1 
-            arr[i],arr[j] = arr[j],arr[i] 
-  
-    arr[i+1],arr[high] = arr[high],arr[i+1] 
-    return ( i+1 ) 
-  
-# The main function that implements QuickSort 
-# arr[] --> Array to be sorted, 
-# low  --> Starting index, 
-# high  --> Ending index 
-  
-# Function to do Quick sort 
-def quickSort(arr,low,high): 
-    if low < high: 
-  
-        # pi is partitioning index, arr[p] is now 
-        # at right place 
-        pi = partition(arr,low,high) 
-  
-        # Separately sort elements before 
-        # partition and after partition 
-        quickSort(arr, low, pi-1) 
-        quickSort(arr, pi+1, high) 
-  
-# Driver code to test above 
-arr = [10, 7, 8, 9, 1, 5] 
-n = len(arr) 
-quickSort(arr,0,n-1) 
-print ("Sorted array is:") 
-for i in range(n): 
-    print ("%d" %arr[i]), 
-  
-# This code is contributed by Mohit Kumra 
-```
+### Privilege Escalation Commands
+getsystem - uses 15 built-in methods to gain sysadmin privileges
 
-### Formula
+### Password Dump Commands
+hashdump - grabs the hashes in the password (SAM) file
+Note that hashdump will often trip AV software, but there are now two scripts that are more stealthy, "run hashdump" and "run smart_hashdump". Look for more on those on my upcoming meterpreter script cheat sheet.
 
-$$
-NADH+Q+5\;H_{matrix}^{+}\rightarrow NAD^{+}+QH_{2}+4\;H_{intermembrane}^{+}\!
-$$
-
-### List
-1. ordered list item 1
-2. ordered list item 2
-   1. sublist
-      1. subsublist
-* unordered list  
-     
-* unordered sublist
-  * subsublist
-    * subsubsublist
-
-### Horizontal line
-
-***
-
-### Table
-
-| Date         | Version   | Size    | Comment                |
-| :----------- | :-------- | :------ | :--------------------- |
-| Nov 11, 2018 | v2.14c    | 240 kb  | No irreversible damage |
-| Nov 12, 2018 | v2.14c    | 1230 kb | No irreversible damage |
-| Nov 13, 2018 | v2.14c    | 12kb    | No irreversible damage |
-| Nov 15, 2018 | v1.99 LTS | 4kb     | Irreversible damage    |
-
-### image
-![img-smpl]({{site.url}}{{site.baseurl}}/src/assets/img/img-sample.jpg)
-# This is heading 1
-## This is heading 2
-The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz. Brick quiz whangs jumpy veldt fox.
-## This is another heading 2
-### This is heading 3
-Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim.
-#### This is heading 4
-Bright vixens jump; dozy fowl quack. Quick wafting zephyrs vex bold Jim. Quick zephyrs blow, vexing daft Jim. 
-##### This is heading 5
-Two driven jocks help fax my big quiz. Quick, Baz, get my woven flax jodhpurs! "Now fax quiz Jack!
-###### This is heading 6
-Few quips galvanized the mock jury box. Quick brown dogs jump over the lazy fox.
+### Timestomp Commands
+timestomp - manipulates the modify, access, and create attributes of a file
