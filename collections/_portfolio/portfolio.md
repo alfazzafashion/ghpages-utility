@@ -11,7 +11,7 @@ author: "読み上げ"
 encrypted_text: true
 ---
 <center>
-<img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo"></a>
+<img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo">
 
 # 読み上げ - ReadLoud
 
