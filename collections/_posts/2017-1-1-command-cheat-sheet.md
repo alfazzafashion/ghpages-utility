@@ -12,9 +12,9 @@ footer: true
 maximize: true
 encrypted_text: true
 toc_level: 4
-category: Notes
+category: Cheat Sheet
 date: 2019-5-25
-excerpt: "Core Commands"
+excerpt: "Metasploit's Meterpreter"
 abstract: 
 ---
 
