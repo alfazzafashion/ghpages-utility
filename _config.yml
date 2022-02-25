@@ -26,10 +26,6 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Article"
-  cheatsheet:
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
   aoc2018:
     output          : true
     permalink       : /:collection/:title/
