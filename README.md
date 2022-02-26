@@ -7,7 +7,8 @@
 <p align="center">
 <img src="/src/assets/img/favicon.png" alt="logo" style="max-width: 100%;">
 <br />
-
+<video preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
+<source src="//cloud.video.alibaba.com/play/u/2153292369/p/1/e/6/t/1/d/hd/234422154401.mp4"></video>
 <!-- GETTING STARTED -->
 ## Getting Started
 
