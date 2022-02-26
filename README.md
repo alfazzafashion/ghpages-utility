@@ -4,10 +4,10 @@
 [![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/issues)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
-[![YouTube Video Views](https://img.shields.io/youtube/views/e2icQFxhp3w?style=social)
-[![YouTube Video Votes](https://img.shields.io/youtube/likes/e2icQFxhp3w?label=Likes&style=social) 
-[![Twitter](https://twitter.com/mansz81" target="_blank")](Twitter: mansz81" src="https://img.shields.io/twitter/follow/mansz81.svg?style=social")
-[![Discord](https://discord.com/invite/nWFnTqP" target="_blank")](https://img.shields.io/discord/731616556622282814?logo=discord&logoColor=white?style=social")
+![YouTube Video Views](https://img.shields.io/youtube/views/e2icQFxhp3w?style=social)
+![YouTube Video Votes](https://img.shields.io/youtube/likes/e2icQFxhp3w?label=Likes&style=social) 
+![Twitter](Twitter: mansz81" src="https://img.shields.io/twitter/follow/mansz81.svg?style=social)](https://twitter.com/mansz81" target="_blank")
+![Discord](https://img.shields.io/discord/731616556622282814?logo=discord&logoColor=white?style=social)](https://discord.com/invite/nWFnTqP" target="_blank")
 
 <!-- LOGO -->
 <br />
