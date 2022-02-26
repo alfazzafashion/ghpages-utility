@@ -1,10 +1,10 @@
 ---
-title: License Badges
+title:  Markdown License badges
 comment: false
+abstract: "Markdown License badges"
 ---
 
-# Markdown License badges
-This list includes the **most common open source** and **open data** licenses.
+# This list includes the **most common open source** and **open data** licenses.
 
 ## Notes 
 - **The badges do not fully replace the license informations for your projects**, they are only emblems for the README, that the user can see the License at first glance.  
