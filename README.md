@@ -3,7 +3,7 @@
 [![Forks](https://img.shields.io/github/forks/readloud/readloud.github.io.svg?style=flat-square)](https://github.com/readloud/readloud.github.io/network/members)
 [![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg?style=flat-square)](https://https://github.com/readloud/readloud.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg?style=flat-square)](https://https://github.com/readloud/readloud.github.io/issues)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)style=flat-square)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT?style=flat-square)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
 
 <!-- LOGO -->
 <br />
