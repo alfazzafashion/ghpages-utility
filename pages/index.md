@@ -16,7 +16,12 @@ permalink: /
 # IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
 
 <br>
-> Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
+> This project is a starting point for [online documentation](https://github.com/oneplus-x), which offers tutorials, samples, guidance on development, and a full reference.
+
+---
+![ReadLoud GitHub stats](https://github-readme-stats.vercel.app/api?username=readloud&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=readloud&layout=compact&langs_count=6&theme=radical)
+---
 
 ### Directory
 
