@@ -2,6 +2,7 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![pages-build-deployment](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment)
 <!-- LOGO -->
 <br />
 <p align="center">
