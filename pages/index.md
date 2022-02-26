@@ -20,11 +20,17 @@ permalink: /
 
 ---
 [![pages-build-deployment](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment)
+
 [![Forks][forks-shield]][forks-url]
+
 [![Stargazers][stars-shield]][stars-url]
+
 [![Issues][issues-shield]][issues-url]
+
 [![MIT License][license-shield]][license-url]
+
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=readloud&layout=compact&langs_count=6&theme=radical)
+
 ![ReadLoud GitHub stats](https://github-readme-stats.vercel.app/api?username=readloud&show_icons=true&theme=radical)
 ---
 
