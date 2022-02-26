@@ -155,4 +155,5 @@ Give a ⭐️ if this project helped you! and If you like my work, support me to
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/forever812S)
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://www.paypal.me/readloud)
 
-You can also ![fork](https://github.com/readloud/readloud/fork) or take a look at the ![Installation guide](https://github.com/readloud/readloud/blob/master/INSTALL.md) for each repository.
+You can also 
+[fork](https://github.com/readloud/readloud/fork) or take a look at the [Installation guide](https://github.com/readloud/readloud/blob/master/INSTALL.md) for each repository.
