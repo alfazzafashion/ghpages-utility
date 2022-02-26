@@ -4,17 +4,11 @@
 [![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/issues)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
+![Discord](https://img.shields.io/discord/731616556622282814?logo=discord&logoColor=white?style=social)
 ![YouTube Video Views](https://img.shields.io/youtube/views/e2icQFxhp3w?style=social)
 ![YouTube Video Votes](https://img.shields.io/youtube/likes/e2icQFxhp3w?label=Likes&style=social) 
 ![Twitter](https://img.shields.io/twitter/follow/mansz81.svg?style=social)
-![Discord](https://img.shields.io/discord/731616556622282814?logo=discord&logoColor=white?style=social)
 
-<!-- LOGO -->
-<br />
-<p align="center">
-<img src="/src/assets/img/favicon.png" alt="logo" style="max-width: 50%;">
-<br />
-  
 <!-- GETTING STARTED -->
 ## Getting Started
 
