@@ -30,7 +30,8 @@ permalink: /
 
 
 ## Read secret text use (access token: 233):
-  - secret msg example:  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
+  - secret msg example:  
+  - <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
 
 ## 🥰 Support
