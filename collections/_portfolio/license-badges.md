@@ -20,7 +20,7 @@ This list includes the **most common open source** and **open data** licenses.
 
 ### BSD 2-Clause License
 [![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)  
-***[![Choose on CreativeCommons.org](https://creativecommons.org/choose/)***
+[![Choose on CreativeCommons.org](https://creativecommons.org/choose/)
 
 #### CC0
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)  
