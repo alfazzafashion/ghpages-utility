@@ -4,6 +4,10 @@
 [![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/issues)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
+[![YouTube Video Views](https://img.shields.io/youtube/views/e2icQFxhp3w?style=social)
+[![YouTube Video Votes](https://img.shields.io/youtube/likes/e2icQFxhp3w?label=Likes&style=social) 
+[![Twitter](https://twitter.com/mansz81" target="_blank")](Twitter: mansz81" src="https://img.shields.io/twitter/follow/mansz81.svg?style=social")
+[![Discord](https://discord.com/invite/nWFnTqP" target="_blank")](https://img.shields.io/discord/731616556622282814?logo=discord&logoColor=white?style=social")
 
 <!-- LOGO -->
 <br />
@@ -137,34 +141,27 @@ excerpt: "This is excerpt." # string
 abstract: "This is abstract. Abstract is blank by default." # string
 ```
 
-## Roadmap
+## 🛣️ Roadmap
 
 1. On-browser code execution teminal.
 2. Code review mode.
 3. Slide mode.
 4. Rapid cheatsheet access.
 
+## 🤝 Contributing
 
-<!-- CONTRIBUTING -->
-## Contributing
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/readloud/readloud/issues). You can also take a look at the [contributing guide](https://github.com/readloud/readloud/blob/master/CONTRIBUTING.md).
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+## 🥰 Support
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-DeerRIDER - [Email](mailto://deerrider666@outlook.com)
-
-Project Link: [pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
+Give a ⭐️ if this project helped you!<br>
+<a href="https://www.patreon.com/mansz81">
+<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"  height="30px"  width="80" alt="patreon">
+</a>
+<br>
+If you like my work, support me to create more! 😎👍<br>
+<a href="https://www.buymeacoffee.com/forever812S" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30px"  width="80"  alt="Buy Me A Coffee"></a>
+<a href="https://www.paypal.me/readloud" target="_blank"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="30px"  width="80" alt="PayPal"/> 
+</a>
+<br>
+You can also [fork](https://github.com/readloud/readloud/fork) or take a look at the [Installation guide](https://github.com/readloud/readloud/blob/master/INSTALL.md) for each repository.
