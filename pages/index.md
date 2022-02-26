@@ -16,7 +16,7 @@ permalink: /
 # IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
 
 <br>
-> This project is a starting point for [online documentation](https://github.com/oneplus-x), which offers tutorials, samples, guidance on development, and a full reference.
+> This project is a starting point for ,<a href"https://github.com/oneplus-x">online documentation</a>, which offers tutorials, samples, guidance on development, and a full reference.
 
 ---
 ![ReadLoud GitHub stats](https://github-readme-stats.vercel.app/api?username=readloud&show_icons=true&theme=radical)
