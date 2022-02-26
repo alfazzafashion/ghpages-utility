@@ -887,6 +887,5 @@ abstract: "Markdown License Badges"
 ### Want to add a License?
 Comment this gist or write me an E-Mail ([lukas@himsel.me](mailto:lukas@himsel.me))
 
-| Back to TOP                                                                           | 
 | ------------------------------------------------------------------------------- | 
 | [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-shortcuts) |
