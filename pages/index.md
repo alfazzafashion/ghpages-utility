@@ -18,12 +18,6 @@ permalink: /
 <br>
 > Read Loud is the most effective method of teaching reading because with this method we can condition the brain to associate reading as a fun activity. It also creates basic knowledge, builds a collection of words/vocabularies (vocabulary), and provides a good reading role model.
 
-## Features
-
-- Read secret text use (access token: 233):
-  - secret msg example:
-  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-
 ### Directory
 
 | Dir Name  | Alias | Link | Comment |
@@ -33,3 +27,9 @@ permalink: /
 | Note | ノート | Archives    | Allowed |
 | Gallery | マイギャラリー | Archives | Not Allowed |
 | Portfolio | ポートフォリオ | Archives | Not Allowed |
+
+## Features
+
+- Read secret text use (access token: 233):
+  - secret msg example:
+  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
