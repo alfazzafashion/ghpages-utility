@@ -5,7 +5,7 @@
 <!-- LOGO -->
 <br />
 <p align="center">
-<img src="/src/assets/img/favicon.png" alt="logo" style="max-width: 100%;">
+<img src="/src/assets/img/favicon.png" alt="logo" style="max-width: 50%;">
 <br />
   
 <!-- GETTING STARTED -->
