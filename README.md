@@ -175,4 +175,4 @@ Project Link: [pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
 [issues-shield]: https://img.shields.io/github/issues/readloud/readloud.github.io.svg?style=flat-square
 [issues-url]: https://https://github.com/readloud/readloud.github.io/issues
 [license-shield]: https://img.shields.io/github/license/readloud.github.io.svg?style=flat-square
-[license-url]: https://github.com/readloud/readloud.github.io/blob/main/collections/_portfolio/license.md
+[license-url]: https://github.com/readloud/readloud.github.io/blob/main/LICENSE
