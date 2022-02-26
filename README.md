@@ -168,11 +168,11 @@ DeerRIDER - [Email](mailto://deerrider666@outlook.com)
 
 Project Link: [pRoJEct-VeXEd](https://github.com/akiritsu/pRoJEct-VeXEd)
 
-[forks-shield]: https://img.shields.io/github/forks/readloud/pRoJEct-VeXEd.svg?style=flat-square
-[forks-url]: https://github.com/readloud/readloud/network/members
-[stars-shield]: https://img.shields.io/github/stars/readloud/readloud.svg?style=flat-square
-[stars-url]: https://https://github.com/readloud/readloud/stargazers
-[issues-shield]: https://img.shields.io/github/issues/readloud/readloud.svg?style=flat-square
-[issues-url]: https://https://github.com/readloud/readloud/issues
-[license-shield]: https://img.shields.io/github/license/readloudreadloud.svg?style=flat-square
-[license-url]: https://https://github.com/readloud/readloud/blob/master/LICENSE
+[forks-shield]: https://img.shields.io/github/forks/readloud/readloud.github.io.svg?style=flat-square
+[forks-url]: https://github.com/readloud/readloud.github.io/network/members
+[stars-shield]: https://img.shields.io/github/stars/readloud/readloud.github.io.svg?style=flat-square
+[stars-url]: https://https://github.com/readloud/readloud.github.io/stargazers
+[issues-shield]: https://img.shields.io/github/issues/readloud/readloud.github.io.svg?style=flat-square
+[issues-url]: https://https://github.com/readloud/readloud.github.io/issues
+[license-shield]: https://img.shields.io/github/license/readloud.github.io.svg?style=flat-square
+[license-url]: https://https://github.com/readloud/readloud.io/blob/master/LICENSE.txt
