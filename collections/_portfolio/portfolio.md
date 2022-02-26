@@ -9,7 +9,7 @@ author: "読み上げ"
 encrypted_text: true
 ---
 
-<img src="https://readloud.github.io/src/assets/img/tumblr.gif" alt="Logo" align="center">
+<img src="https://readloud.github.io/src/assets/img/favicon.png" alt="Logo" align="center">
 
 # 読み上げ - ReadLoud
 <br>
