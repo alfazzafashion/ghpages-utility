@@ -1,13 +1,9 @@
 [![pages-build-deployment](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment)
 [![CodeQL](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml)
-[![Forks](https://img.shields.io/github/forks/readloud/readloud.github.io.svg?style=flat-square)]
-(https://github.com/readloud/readloud.github.io/network/members]
-[![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg?style=flat-square)]
-(https://https://github.com/readloud/readloud.github.io/stargazers)
-[![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg?style=flat-square)]
-(https://https://github.com/readloud/readloud.github.io/issues)
-[![MIT License](https://img.shields.io/github/license/readloud.github.io.svg?style=flat-square)]
-(https://github.com/readloud/readloud.github.io/blob/main/LICENSE)
+[![Forks](https://img.shields.io/github/forks/readloud/readloud.github.io.svg?style=flat-square)](https://github.com/readloud/readloud.github.io/network/members)
+[![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg?style=flat-square)](https://https://github.com/readloud/readloud.github.io/stargazers)
+[![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg?style=flat-square)](https://https://github.com/readloud/readloud.github.io/issues)
+[![MIT License](https://img.shields.io/github/license/readloud.github.io.svg?style=flat-square)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE)
 
 <!-- LOGO -->
 <br />
