@@ -8,9 +8,6 @@ abstract: "Markdown License Badges"
 - This list includes the **most common open source** and **open data** licenses.
 - **The badges do not fully replace the license informations for your projects**, they are only emblems for the README, that the user can see the License at first glance.  
 
-| Name                                                                            | 
-| ------------------------------------------------------------------------------- | 
-| [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-shortcuts) |
 
 ### Apache
 | Name               | Badge                                                                                                                      | Markdown                                                                                        					|
@@ -889,3 +886,7 @@ abstract: "Markdown License Badges"
 
 ### Want to add a License?
 Comment this gist or write me an E-Mail ([lukas@himsel.me](mailto:lukas@himsel.me))
+
+| Back to TOP                                                                           | 
+| ------------------------------------------------------------------------------- | 
+| [![](https://img.shields.io/badge/back%20to%20top-%E2%86%A9-blue)](#-shortcuts) |
