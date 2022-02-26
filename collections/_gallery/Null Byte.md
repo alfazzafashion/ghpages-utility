@@ -10,7 +10,10 @@ comment: false
 So many attacks start with a simple booby-trapped document that runs malicious code. Crafty attackers can even customize the payload to bypass endpoint controls! Don’t believe us? Check out this epic cross-over event, where Kilian from SecurityFWD meets with Kody from Null Byte/SecurityFWD to explore how an attacker would build a “malicious” document that bypasses endpoint controls, establishes a C&C channel, and more!
   
   [Subscribe to Null Byte:](https://goo.gl/J6wEnH)
+  
   [Kody's Twitter: ](https://twitter.com/KodyKinzie)
+  
   [SecurityFWD:](https://www.youtube.com/securityfwd)
+  
   [Varonis:](https://www.youtube.com/c/VaronisSystems)
   
