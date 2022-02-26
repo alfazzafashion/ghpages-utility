@@ -2,8 +2,6 @@
 title: Hot Girl!
 category: Video
 comment: false
-home_btn: true
-btn_text: true
 ---
 
 ## Gymn
@@ -13,7 +11,6 @@ btn_text: true
 <br>
 
 ## Centimental!
-<details>
-<summary><center>
+<center>
 <video width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
-<source src="{{site.url}}{{site.baseurl}}/src/assets/img/h264.mp4"></video></summary>  
+<source src="{{site.url}}{{site.baseurl}}/src/assets/img/h264.mp4"></video>
