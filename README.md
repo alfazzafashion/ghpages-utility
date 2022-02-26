@@ -149,8 +149,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## 🥰 Support
 
 Give a ⭐️ if this project helped you!<br>
-<a href="https://www.patreon.com/mansz81">
-<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"  height="30px"  width="100" alt="patreon">
+![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button@2x.png)](https://www.patreon.com/mansz81)
 </a>
 <br>
 If you like my work, support me to create more! 😎👍<br>
