@@ -28,16 +28,9 @@ permalink: /
 | Gallery | マイギャラリー | Archives | Not Allowed |
 | Portfolio | ポートフォリオ | Archives | Not Allowed |
 
-## Features
 
-- Read secret text use (access token: 233):
-  - secret msg example:
-  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/readloud/readloud/issues). You can also take a look at the [contributing guide](https://github.com/readloud/readloud/blob/master/CONTRIBUTING.md).
+## Read secret text use (access token: 233):
+  - secret msg example:  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
 
 
 ## 🥰 Support
