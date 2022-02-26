@@ -46,12 +46,10 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## 🥰 Support
 
-Give a ⭐️ if this project helped you!<br>
+Give a ⭐️ if this project helped you! & If you like my work, support me to create more! 😎👍<br>
 <a href="https://www.patreon.com/mansz81">
 <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png"  height="30px"  width="80" alt="patreon">
 </a>
-<br>
-If you like my work, support me to create more! 😎👍<br>
 <a href="https://www.buymeacoffee.com/forever812S" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="30px"  width="80"  alt="Buy Me A Coffee"></a>
 <a href="https://www.paypal.me/readloud" target="_blank"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" height="30px"  width="80" alt="PayPal"/> 
 </a>
