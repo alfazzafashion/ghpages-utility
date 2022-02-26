@@ -20,14 +20,11 @@ permalink: /
 
 ---
 [![pages-build-deployment](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment)
-
-[![Forks][forks-shield]][forks-url]
-
-[![Stargazers][stars-shield]][stars-url]
-
-[![Issues][issues-shield]][issues-url]
-
-[![MIT License][license-shield]][license-url]
+[![CodeQL](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml)
+[![Forks](https://img.shields.io/github/forks/readloud/readloud.github.io.svg)](https://github.com/readloud/readloud.github.io/network/members)
+[![Stargazers](https://img.shields.io/github/stars/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/stargazers)
+[![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/issues)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=readloud&layout=compact&langs_count=6&theme=radical)
 
