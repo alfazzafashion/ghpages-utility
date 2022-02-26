@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy for Read Loud
+title: Privacy Policy
 comment: false
 ---
 
