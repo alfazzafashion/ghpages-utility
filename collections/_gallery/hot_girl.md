@@ -41,10 +41,9 @@ comment: false
     
 # Youtube
     
-    <div class="w3-row-padding w3-margin-top">
 <div class="w3-third">
     <div class="w3-card">
-<iframe width="300" src="https://www.youtube.com/embed/Iwg5Oh_zkbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" src="https://www.youtube.com/watch?v=Iwg5Oh_zkbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <div class="w3-container">
         <h5>234422154401</h5>
       </div>
