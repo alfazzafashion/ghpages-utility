@@ -38,13 +38,10 @@ comment: false
   </div>
 <br>
 
-    
-# Youtube
-    
 <div class="w3-third">
     <div class="w3-card">
       <div class="w3-container">
-<iframe width="300" src="https://www.youtube.com/embed/Iwg5Oh_zkbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="300" src="https://www.youtube.com/embed/Iwg5Oh_zkbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
       </div>
     </div>
   </div>
