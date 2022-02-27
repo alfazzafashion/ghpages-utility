@@ -17,7 +17,7 @@ comment: false
 
 <div class="w3-third">
     <div class="w3-card">
-<video height="400" width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
+<video width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
   <source src="https://previews.customer.envatousercontent.com/files/98549940-01d7-46dd-bb95-49928e091e3e/video_preview_h264.mp4"></video>
       <div class="w3-container">
         <h5>7114570</h5>
@@ -27,7 +27,7 @@ comment: false
   
 <div class="w3-third">
     <div class="w3-card">
-<video height="400" width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
+<video width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
   <source src="https://previews.customer.envatousercontent.com/files/24f4d0f3-6aa2-4f33-8124-40a5d9608e4a/video_preview_h264.mp4"></video>
       <div class="w3-container">
         <h5>h264</h5>
