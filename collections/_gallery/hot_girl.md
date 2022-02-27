@@ -1,10 +1,8 @@
 ---
-title: Hot Girl!
+title: Hot Girl Footage!
 category: Video
 comment: false
 ---
-
-# Footage
 
 <div class="w3-row-padding w3-margin-top">
 <div class="w3-third">
@@ -67,4 +65,3 @@ comment: false
       </div>
     </div>
   </div>
-    
