@@ -28,7 +28,7 @@ comment: false
   <div class="w3-third">
     <div class="w3-card">
 <video id="myVideo" height="400" width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
-  <source src="{{site.url}}{{site.baseurl}}/src/assets/img/h264.mp4"></video>
+  <source src="https://www.w3schools.com/tags/mov_bbb.mp4"></video>
       <div class="w3-container">
         <h5>h264</h5>
       </div>
