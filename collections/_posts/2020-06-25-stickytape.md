@@ -2,7 +2,7 @@
 title: Combine multiple python files into one python file
 toc_level: 6
 category: Article
-date: 2022-1-1
+date: 2020-06-25
 ---
 
 Thing you want to do
