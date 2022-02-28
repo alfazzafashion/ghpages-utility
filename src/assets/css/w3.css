@@ -149,41 +149,22 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 
-*,*::before,*::after{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      transition: all .2s ease ;
-      outline: none;
-    }
-    body{
-      font-family: Sans-Serif;
-    }
-    *::before,*::after{
-      content: '';
-    }
-    .container{
-      height: 100vh;
-      width: 100vw;
-      display: grid;
-      place-items: center;
-    }
-    video{
-      height: auto;
-      width: 100%;
-    }
-    .img {
+    .img{
       float: left;
     }
-    .zoom {
+    .zoom{
       padding: 0px; 
       transition: transform .2s; /* Animation */ 
       width: 0 auto; 
       height: 115px; 
       margin: 0 auto;
     }
-    .zoom:hover {
+    .zoom:hover{
       transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    .video{
+      height: auto;
+      width: 100%;
     }
     .video-container{
       position: relative;
