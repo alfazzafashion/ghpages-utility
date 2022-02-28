@@ -2,7 +2,7 @@
 title: Combine multiple python files into one python file
 toc_level: 6
 category: Article
-date: 2019-1-1
+date: 2022-1-1
 ---
 
 Thing you want to do
@@ -36,7 +36,7 @@ The configuration is as follows.
 - folder
     - sub2.py
 folder/sub2.py Make an Apple class as you like and give it a value property as you like.
-~~~
+~~~python
 class Apple:
 
     def __init__(self, value):
@@ -46,7 +46,7 @@ class Apple:
 sub1.py Make an average function as appropriate.
 
 sub1.py
-~~~
+~~~python
 def mean(a, b):
     return (a+b)/2
 main.py Import it, calculate it appropriately, and display it appropriately.
@@ -67,7 +67,7 @@ $ stickytape main.py > onefile.py
 ~~~
 result
 The following ʻonefile.py` will be generated.
-~~~
+~~~python
 #!/usr/bin/env python
 
 import contextlib as __stickytape_contextlib
@@ -181,5 +181,3 @@ If you write it at the beginning, it will get in the way, so let me introduce yo
 | Name        | School | Follow on Twitter! |
 | :---------- | :----- | :----------------- |
 | Aki Wataoka | Kobe University | [@Wataoka_Koki](@Wataoka_Koki) |
-
- 
