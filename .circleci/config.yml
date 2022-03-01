@@ -7,7 +7,7 @@ jobs:
   upload-to-codecov:
     docker:
       # replace with your preferred image
-      - image: cimg/base:stable
+      - image: curlimages/curl
     steps:
       - codecov/upload
 workflows:
