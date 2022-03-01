@@ -17,7 +17,7 @@ version: 2.1
           token: CODECOV_TOKEN (3d826f00-a703-4bb0-be1e-8ada9f2d3073)
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
-	# Orchestrate our job run sequence
+# Orchestrate our job run sequence
   workflows:
     build_and_test:
           jobs:
