@@ -15,7 +15,8 @@ comment: false
             <video src="https://previews.customer.envatousercontent.com/files/e3ec9b2a-7acf-47df-a0ee-2c433fa5d2db/video_preview_h264.mp4" muted controls autoplay></video>
         </div>
     </div>
-
+<link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/src/assets/css/style.css" type="text/css"/>
+<script href="{{site.url}}{{site.baseurl}}/src/assets/css/style.css" type="text/javascript"/>
 <script>
         $(document).ready(function(){
 
