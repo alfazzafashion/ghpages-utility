@@ -14,8 +14,8 @@ jobs:
 steps:
     - codecov/upload:
         token: CODECOV_TOKEN='3d826f00-a703-4bb0-be1e-8ada9f2d3073'
-	# Invoke jobs via workflows
-	# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
    "Hello Workflow":
         jobs:
