@@ -10,8 +10,8 @@ jobs:
       - image: curlimages/curl
     steps:
       - codecov/upload
+
 workflows:
   upload-to-codecov:
     jobs:
-      - upload-to-codecov
-            
+      - upload-to-codecov            
