@@ -15,4 +15,4 @@ comment: false
             <video src="https://previews.customer.envatousercontent.com/files/e3ec9b2a-7acf-47df-a0ee-2c433fa5d2db/video_preview_h264.mp4" muted controls autoplay></video>
         </div>
     </div>
-<script href="{{site.url}}{{site.baseurl}}/src/assets/css/style.js" type="text/javascript"/>
+<script src="{{site.url}}{{site.baseurl}}/src/assets/js/style.js" async></script>
