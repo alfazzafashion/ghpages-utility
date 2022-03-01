@@ -7,10 +7,10 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
   jobs:
-  - codecov/upload
+    - codecov/upload
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
-    steps:
-      - run: echo "this is the test job"	
-      - codecov/upload:
-          token: CODECOV_TOKEN='3d826f00-a703-4bb0-be1e-8ada9f2d3073'
+  steps:
+    - run: echo "this is the test job"	
+    - codecov/upload:
+         token: CODECOV_TOKEN='3d826f00-a703-4bb0-be1e-8ada9f2d3073'
