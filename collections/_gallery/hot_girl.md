@@ -16,10 +16,7 @@ comment: false
         </div>
     </div>
 
-    <!-- jquery cdn link -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-    <script>
-
+<script>
         $(document).ready(function(){
 
             $('.videos video').click(function(){
@@ -30,3 +27,4 @@ comment: false
                 $('.main-video video').attr('src',src);
             });
         });
+</script>
