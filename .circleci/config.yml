@@ -11,7 +11,6 @@ version: 2.1
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
-      - checkout
       - run: echo "this is the test job"	
       - codecov/upload:
-          token: CODECOV_TOKEN (3d826f00-a703-4bb0-be1e-8ada9f2d3073)
+          token: CODECOV_TOKEN='3d826f00-a703-4bb0-be1e-8ada9f2d3073'
