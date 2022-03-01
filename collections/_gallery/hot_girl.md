@@ -16,22 +16,17 @@ comment: false
         </div>
     </div>
 
-<div class="w3-third">
-    <div class="w3-card">
-<video width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
-  <source src="https://previews.customer.envatousercontent.com/files/98549940-01d7-46dd-bb95-49928e091e3e/video_preview_h264.mp4"></video>
-      <div class="w3-container">
-      <a href="https://previews.customer.envatousercontent.com/files/98549940-01d7-46dd-bb95-49928e091e3e/video_preview_h264.mp4" alt="envatousercontent" target="_blank"/>envatousercontent
-      </div>
-    </div>
-  </div>
-  
-<div class="w3-third">
-    <div class="w3-card">
-<video width="300" preload="none" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="">
-  <source src="https://previews.customer.envatousercontent.com/files/24f4d0f3-6aa2-4f33-8124-40a5d9608e4a/video_preview_h264.mp4"></video>
-      <div class="w3-container">
-      <a href="https://previews.customer.envatousercontent.com/files/24f4d0f3-6aa2-4f33-8124-40a5d9608e4a/video_preview_h264.mp4" alt="envatousercontent" target="_blank"/>envatousercontent
-      </div>
-    </div>
-  </div>
+    <!-- jquery cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    <script>
+
+        $(document).ready(function(){
+
+            $('.videos video').click(function(){
+
+                $(this).addClass('active').siblings().removeClass('active');
+
+                var src = $(this).attr('src');
+                $('.main-video video').attr('src',src);
+            });
+        });
