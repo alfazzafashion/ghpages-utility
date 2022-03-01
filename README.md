@@ -1,7 +1,6 @@
 [![CodeQL](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/codeql-analysis.yml)
 [![pages-build-deployment](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/readloud/readloud.github.io/actions/workflows/pages/pages-build-deployment)
 [![codecov.io](https://codecov.io/github/codecov/codecov-circleci-orb/coverage.svg?branch=master)](https://codecov.io/github/codecov/codecov-circleci-orb)
-[![Circle CI](https://circleci.com/gh/codecov/codecov-circleci-orb.png?style=badge)](https://circleci.com/gh/codecov/codecov-circleci-orb) 
 [![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue.svg)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 [![Issues](https://img.shields.io/github/issues/readloud/readloud.github.io.svg)](https://https://github.com/readloud/readloud.github.io/issues)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/readloud/readloud.github.io/blob/main/LICENSE.md)
