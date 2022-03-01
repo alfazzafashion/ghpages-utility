@@ -16,7 +16,7 @@ comment: false
         </div>
     </div>
 <link rel="stylesheet" href="{{site.url}}{{site.baseurl}}/src/assets/css/style.css" type="text/css"/>
-<script href="{{site.url}}{{site.baseurl}}/src/assets/css/style.css" type="text/javascript"/>
+<script href="{{site.url}}{{site.baseurl}}/src/assets/css/style.js" type="text/javascript"/>
 <script>
         $(document).ready(function(){
 
@@ -28,4 +28,3 @@ comment: false
                 $('.main-video video').attr('src',src);
             });
         });
-</script>
