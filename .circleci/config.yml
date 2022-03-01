@@ -1,17 +1,16 @@
 version: 2.1
 orbs:
-  codecov: codecov/codecov@3.2.2
+  codecov: codecov/codecov@3.0.0
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
   upload-to-codecov:
     docker:
       # replace with your preferred image
-      - image: curlimages/curl
+      - image: cimg/base:stable
     steps:
       - codecov/upload
-
 workflows:
   upload-to-codecov:
     jobs:
-      - upload-to-codecov            
+      - upload-to-codecov
