@@ -1,0 +1,31 @@
+lang: ruby
+
+dist: trusty
+
+script: bundle exec rake
+
+rvm: 2.7
+
+language: node_js
+
+scripts:
+  - npm install codecov -g
+  
+after_success:
+  - codecov
+  
+language: r
+
+sudo: required
+
+env: _R_CHECK_CRAN_INCOMING_=FALSE
+
+r_packages:
+  - covr
+  - devtools
+
+r_github_packages:
+  - codecov/example-r
+
+after_success:
+  - Rscript -e 'library(covr);codecov()'
