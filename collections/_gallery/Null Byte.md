@@ -1,5 +1,5 @@
 ---
-title: Watch Hackers Craft Malicious Office Macros (ft. Kilian from SecurityFWD)
+title: MY YOUTUBE PLAYLIST
 category: Videos
 comment: false
 ---
@@ -7,9 +7,9 @@ comment: false
 <!-- partial:index.partial.html -->
 <div class="vid-main-wrapper clearfix">
 
-  		    <!-- THE YOUTUBE PLAYER -->
+  		<!-- THE YOUTUBE PLAYER -->
       <div class="vid-container">
-          <iframe id="vid_frame" src="https://www.youtube.com/embed/e2icQFxhp3w?rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+     <iframe id="vid_frame" src="https://www.youtube.com/embed/playlist?list=PL4zzNO1AFRUl8HhXpDFH8u-lIiqaBKuGT?rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
       </div>
 
       <!-- THE PLAYLIST -->
@@ -17,7 +17,7 @@ comment: false
             <ol id="vid-list">
               <li>
                 <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/ua2_KMk0KBc?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
+                  <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/ua2_KMk0KBc/default.jpg" /></span>
                   <div class="desc">WeatherBeater™ Product Video</div>
                 </a>
               </li>
