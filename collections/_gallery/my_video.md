@@ -1,5 +1,5 @@
 ---
-title: Full Screen Video
+title: Video Gallery
 category: Video
 comment: false
 ---
