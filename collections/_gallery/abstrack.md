@@ -4,6 +4,7 @@ category: Wallpaper
 comment: false
 ---
 
+<center>
 <div class="container">
   <div class="image">
             <img src="https://readloud.github.io/src/assets/img/51324598.jpg" alt="">
@@ -31,7 +32,7 @@ comment: false
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
   </div>
-    </div>
+</div>
 
 <script>
   var imageno =1;
