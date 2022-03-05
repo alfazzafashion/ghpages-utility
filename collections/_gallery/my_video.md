@@ -1,5 +1,5 @@
 ---
-title: Video Gallery
+title: VIDEO GALLERY
 category: Video
 comment: false
 ---
