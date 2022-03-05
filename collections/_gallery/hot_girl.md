@@ -17,8 +17,6 @@ comment: false
         </div>
     <div class="overlay">
     </div>
-    <h1>Fullscreen video background
-    </h1>
     </div>
 
    <script>
