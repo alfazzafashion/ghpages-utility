@@ -7,12 +7,12 @@ comment: false
 <!-- partial:index.partial.html -->
 <div class="vid-main-wrapper clearfix">
 
-  		<!-- THE YOUTUBE PLAYER -->
+<!-- THE YOUTUBE PLAYER -->
       <div class="vid-container">
-     <iframe id="vid_frame" src="https://www.youtube.com/embed/playlist?list=PL4zzNO1AFRUl8HhXpDFH8u-lIiqaBKuGT?rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+     <iframe id="vid_frame" src="https://www.youtube.com/embed/playlist?list=PL4zzNO1AFRUl8HhXpDFH8u-lIiqaBKuGT=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
       </div>
 
-      <!-- THE PLAYLIST -->
+<!-- THE PLAYLIST -->
       <div class="vid-list-container">
             <ol id="vid-list">
               <li>
