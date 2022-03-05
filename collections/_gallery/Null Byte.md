@@ -18,7 +18,7 @@ comment: false
               <li>
                 <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/ua2_KMk0KBc?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/ua2_KMk0KBc/default.jpg" /></span>
-                  <div class="desc">WeatherBeater™ Product Video</div>
+                  <div class="desc">Surah Al Baqarah Full™ Nonstop Video</div>
                 </a>
               </li>
               <li>
