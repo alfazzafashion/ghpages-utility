@@ -9,7 +9,7 @@ comment: false
 
 <!-- THE YOUTUBE PLAYER -->
       <div class="vid-container">
-     <iframe id="vid_frame" src="https://www.youtube.com/embed/playlist?list=PL4zzNO1AFRUl8HhXpDFH8u-lIiqaBKuGT=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+     <iframe id="vid_frame" src="https://www.youtube.com/embed/playlist?list=PL4zzNO1AFRUl8HhXpDFH8u-lIiqaBKuGT" frameborder="0" width="560" height="315"></iframe>
       </div>
 
 <!-- THE PLAYLIST -->
