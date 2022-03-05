@@ -4,22 +4,19 @@ category: Videos
 comment: false
 ---
 
-<center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/e2icQFxhp3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <!-- partial:index.partial.html -->
 <div class="vid-main-wrapper clearfix">
 
   		    <!-- THE YOUTUBE PLAYER -->
       <div class="vid-container">
-          <iframe id="vid_frame" src="https://www.youtube.com/embed/cOSEOYi9JS4?rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
+          <iframe id="vid_frame" src="https://www.youtube.com/embed/e2icQFxhp3w?rel=0&showinfo=0&autohide=1" frameborder="0" width="560" height="315"></iframe>
       </div>
 
       <!-- THE PLAYLIST -->
       <div class="vid-list-container">
             <ol id="vid-list">
               <li>
-                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/cOSEOYi9JS4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                <a href="javascript:void();" onClick="document.getElementById('vid_frame').src='https://youtube.com/embed/ua2_KMk0KBc?autoplay=1&rel=0&showinfo=0&autohide=1'">
                   <span class="vid-thumb"><img width=72 src="https://img.youtube.com/vi/cOSEOYi9JS4/default.jpg" /></span>
                   <div class="desc">WeatherBeater™ Product Video</div>
                 </a>
@@ -66,9 +63,3 @@ comment: false
                   <div class="desc">Custom Molded Mud Guards</div>
                 </a>
               </li>
-              
-            </ul>
-       </div>
-
-  	
-</div>
