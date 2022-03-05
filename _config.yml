@@ -9,6 +9,8 @@ markdown            : kramdown
 statement           : "読み上げ - All Rights Reserved"
 bgtext              : "ABCDEFGHIJKLMNOPQRTUSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
+- name: action-itemplate-ghpages
+  uses: itamarc/action-itemplate-ghpages@v1
 
 # 2. Your Collections
 # You can specify the order shown in Archive window. 
