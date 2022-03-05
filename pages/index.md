@@ -13,7 +13,7 @@ encrypted_text: true
 permalink: /
 ---
 
-# IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE, LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
+# IF YOUR ACTIONS INSPIRE OTHERS TO DREAM MORE,<br> LEARN MORE, DO MORE AND BECOME MORE, YOU ARE A LEADER.
 
 <br>
 > This project is a starting point for [online documentation](https://github.com/oneplus-x), which offers tutorials, samples, guidance on development, and a full reference.
