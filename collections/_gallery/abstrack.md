@@ -4,9 +4,6 @@ category: Wallpaper
 comment: false
 ---
 
-<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
-  <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
-</video>
 <div class="container">
   <div class="image">
             <img src="{{site.url}}{{site.baseurl}}/src/assets/img/51324598.jpg" alt="">
@@ -18,10 +15,10 @@ comment: false
             <img src="{{site.url}}{{site.baseurl}}/src/assets/img/img-sample.jpg" alt="">
   </div>
   <div class="image">
-            <img src="{{site.url}}{{site.baseurl}}/src/assets/img-4.jpg" alt="">
+            <img src="https://media.istockphoto.com/photos/lots-of-multicoloured-cubes-moving-in-space-to-come-together-to-form-picture-id1312818032?s=2048x2048" alt="">
   </div>
   <div class="image">
-            <img src="{{site.url}}{{site.baseurl}}/src/assets/img-5.jpg" alt="">
+            <img src="https://media.istockphoto.com/photos/abstract-technological-background-in-vibrant-colors-with-blur-picture-id1310488699?s=2048x2048" alt="">
   </div>
   <div class="button">
             <a onclick="nextimg(-1)" class="prev">&#10094;</a>
