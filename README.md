@@ -1,7 +1,7 @@
 # ghpages-utility
 especially through being able to perform several functions.
 
-## Table Of Content
+### Table Of Content
   * [markdownbadges](markdownbadges/#README.md)
   * [markdownlint](markdownlint/#README.md)
   * [profileviewscounter](profileviewscounter/#README.md)
